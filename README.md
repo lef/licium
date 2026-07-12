@@ -136,6 +136,31 @@ interfaces over Licium data.
 Licium is at the design and model-validation stage. The current direction is a
 discussion draft, not a stable specification.
 
+## Road to 0.1.0
+
+The first meaningful milestone is **Identity generation**, not merely ID
+generation or another protocol implementation.
+
+```text
+ID–Value substrate
+        ↓ selector
+Identity generation
+        ↓
+Reproducible Identity View
+```
+
+The initial release is intended to provide:
+
+- Identity generation from values and relations;
+- explicit multivalue semantics;
+- deterministic selection;
+- reproducible Identity Views;
+- property-tested merge behavior.
+
+It is intentionally not intended to provide authentication, authorization,
+protocol servers, or networking. Those belong in independently replaceable
+components above the backend semantics.
+
 The immediate questions are intentionally fundamental:
 
 1. Are values a set or a bag?
