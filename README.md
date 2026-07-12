@@ -1,76 +1,153 @@
 ---
 Type: README
-Updated: 2026-06-29T03:55+09:00
-Status: draft
-Tags: licium, identity, attributes, trust, llmops, public-snapshot
-Description: Licium is an attribute-thread framework for identity-like trust records.
+Updated: 2026-07-12T00:00+09:00
+Status: discussion-draft
+Tags: licium, digital-identity, attributes, nhi, llm, authorization
+Description: A minimal data structure for composing digital identities from values and relations.
 ---
 
 # Licium
 
-Licium is an attribute-thread framework for identity-like trust records.
+> **Identity emerges from values and relations.**
 
-It does not require a stable Entity. Instead, it binds externally established attributes, claims, and evidence into a portable thread that can be verified, transformed, and presented to relying parties.
+Licium is an experiment in reducing digital identity to its smallest useful
+shape: a multivalued **ID–Value structure** from which purpose-specific sets
+of values and relations can be composed as digital identities.
 
-## 日本語概要
+```text
+ID → { Value, Value, Value, ... }
+```
 
-Licium は、Identity 的な信頼記録を扱う attribute-thread framework です。
+No mandatory User object. No canonical directory tree. No protocol-specific
+claims in the core.
 
-安定した Entity の存在を前提にせず、外部で確立された属性・claim・証拠を、検証・変換・提示可能な thread として束ねます。
+Just a tiny substrate on which human identities, workloads, short-lived
+processes, AI agents, credentials, relationships, and authorization views can
+be composed.
 
-中心にある考えは、Entity / Identity / Privacy を単一の箱として扱うのではなく、属性とその制御へ分解し、それらを失われない context として RP (Relying Party) へ渡すことです。
+## The idea
 
-## Why
+A digital identity is not the Entity itself. It is a particular set of values
+and relations associated with an Entity and composed for a purpose.
 
-Traditional identity systems often start from a durable subject: a user, device, service account, or workload identity. Licium starts one layer lower.
+The same Entity may therefore have many identities:
 
-Human users, devices, workloads, LLM agents, and short-lived processes may all receive trust from different enrollment or registration processes. Licium does not define those trust anchors. It records their results, preserves their context, and provides a format-agnostic way to present them downstream.
+```text
+Employment identity  → employee number, department, position
+Login identity       → login identifier, key, assurance
+Workload identity    → image digest, attestation, runtime key
+Agent identity       → model, tools, delegation, session constraints
+```
 
-## Core Idea
+Licium keeps the substrate deliberately smaller than those concepts. Meaning
+is introduced by selectors and profiles above the core.
 
-Licium treats identity-like records as threads of attributes.
+```text
+Raw ID–Value data
+        ↓ selector
+Purpose-specific set of values and relations
+        ↓
+Digital Identity View
+```
 
-- Attributes and claims may come from different issuers.
-- Evidence may use different formats, such as JWT, X.509, SAML, VDC, or project-specific records.
-- The relying party should receive a coherent presentation without losing the original context.
-- A stable Entity is allowed, but not required.
+## Why this shape?
 
-## Non-Goals
+Traditional identity systems tend to begin with a durable entry: a user row,
+an LDAP object, a device record, or a service account. That model becomes
+awkward for non-human identities whose useful boundaries may be a deployment,
+a process incarnation, an attestation, an agent session, or a single tool
+invocation.
+
+Licium starts below the entry.
+
+- An **Identity** is a composed set of values and relations, not a permanent box.
+- A **Relation** is an interpretation of one value as a reference to another ID.
+- A **Graph** is a view over ID–Value data, not a required core ontology.
+- A **Directory** is a rebuildable, query-optimized materialized view, not the
+  source of truth.
+- LDAP, GraphQL, SCIM, OIDC, SAML, Zanzibar-style ReBAC, and Macaroon-style
+  delegation belong above the same substrate.
+
+## One model, different scales
+
+The logical model is intentionally small enough to map to a local SQLite
+database and to a globally distributed store such as Spanner without claiming
+that both provide the same operational guarantees.
+
+```text
+                     ┌─ LDAP Directory View
+ID–Value Repository ─┼─ Graph / GraphQL View
+                     ├─ Search Index
+                     ├─ Authorization View
+                     └─ Protocol Projection
+```
+
+SQLite and Spanner may differ in transaction time, concurrency, availability,
+and throughput. They should not differ in what an ID–Value pair means or in
+the result of a deterministic selector over the same snapshot.
+
+## History without making history the schema
+
+The emerging repository model draws inspiration from mature content-addressed
+and version-control systems:
+
+- **restic / rustic** for immutable objects, snapshots, rebuildable indexes,
+  consistency checks, retention, and prune;
+- **git / jj** for operations, views, merge, conflict, undo, and reachability;
+- **SQLite → Spanner** as the portability and scalability stress test.
+
+Logical removal, concurrent change, retention, and physical garbage collection
+are therefore treated as repository operations—not as an eager `DELETE` from
+the identity model.
+
+## LLMs and deterministic identity
+
+LLMs may be useful for discovering relationships, mapping unfamiliar schemas,
+and proposing selectors. They should not silently become the final authority
+on a hot authorization path.
+
+```text
+LLM                      Deterministic evaluator
+proposes semantics   →   executes an approved selector
+maps schemas         →   reads a fixed snapshot
+explains results     →   produces a reproducible view
+```
+
+Licium aims to preserve both sides: flexible semantic discovery and
+deterministic, replayable evaluation.
+
+## What Licium is not
 
 Licium is not:
 
-- a traditional IdP
-- a universal root of trust
-- a replacement for JWT, X.509, SAML, or VDC
-- an Entity registry
-- a single canonical identity database
+- a traditional IdP;
+- an LDAP replacement;
+- an authorization policy language;
+- a universal root of trust;
+- a new JWT, VC, X.509, SAML, or Macaroon format;
+- a canonical registry of all Entities;
+- a claim that every backend has Spanner-level guarantees.
 
-## Early Model
+Those systems and formats may be sources, projections, evaluators, or
+interfaces over Licium data.
 
-The initial model is expected to define:
+## Status
 
-- thread identity
-- subject binding
-- attributes and claims
-- issuers and attestors
-- evidence
-- audience and scope
-- expiration and revocation
-- presentation to relying parties
+Licium is at the design and model-validation stage. The current direction is a
+discussion draft, not a stable specification.
 
-This repository is currently at the concept/bootstrap stage.
+The immediate questions are intentionally fundamental:
 
-## Current Status
+1. Are values a set or a bag?
+2. Must the core distinguish literal values from references?
+3. How are selectors represented, versioned, and replayed?
+4. When does a selected Identity View receive a persistent identifier?
+5. How do operation merge, retention roots, and physical GC interact?
+6. Which guarantees are portable from SQLite to Spanner, and which must remain
+   explicit backend capabilities?
 
-This repository is a bootstrap snapshot. The data model and terminology are not stable yet.
-
-The next useful work is to define the core model before implementing components:
-
-1. Scope and non-goals
-2. Thread, subject binding, attribute, claim, evidence
-3. Issuer, attestor, audience, scope, expiry, revocation
-4. Lifecycle: issue, verify, refresh, revoke, compose, present
-5. Format boundary: JWT, X.509, SAML, VDC, CS-MD, and project-specific records
+The repository will grow from those invariants outward—not from a checklist of
+identity protocols inward.
 
 ## License
 
