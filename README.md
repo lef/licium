@@ -136,6 +136,9 @@ interfaces over Licium data.
 Licium is at the design and model-validation stage. The current direction is a
 discussion draft, not a stable specification.
 
+Start with [the design documentation](docs/DESIGN.md) for the current model,
+open hypotheses, and comparisons with ReBAC, Zanzibar, and Macaroons.
+
 ## Road to 0.1.0
 
 The first meaningful milestone is **Identity generation**, not merely ID
