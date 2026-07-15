@@ -2,7 +2,7 @@
 Type: README
 Updated: 2026-07-12T00:00+09:00
 Status: discussion-draft
-Tags: licium, digital-identity, attributes, nhi, llm, authorization
+Tags: licium, digital-identity, attributes, nhi, llm, authentication, authorization
 Description: A minimal data structure for composing digital identities from values and relations.
 ---
 
