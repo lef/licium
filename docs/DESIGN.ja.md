@@ -1,6 +1,6 @@
 ---
 Type: DESIGN
-Updated: 2026-07-26T20:00:00+09:00
+Updated: 2026-07-26T21:30:00+09:00
 Status: discussion-draft
 Tags: licium, design, identity, repository, evaluation, japanese
 Description: Liciumの現在の設計境界、実行可能な証拠、未決事項を示す公開用の起点。
@@ -45,6 +45,28 @@ mapできます。deployment topologyは、論理data modelの一部ではあり
 `Not supported by an experiment`とは、有限の証拠がそのclaimを確立しなかった
 という意味です。そのideaが否定された、または不可能であることを自動的に
 意味するものではありません。
+
+## Review対象のCandidate Contracts
+
+lifecycle rolesとbackend-independentなobservationsが、Rust APIやdatabase schemaを
+選ばずに批評できる具体性を持ったため、現時点で公開review対象とします。
+
+- [Repository／Evaluation Lifecycle Core Contract v0](CORE-CONTRACT.ja.md) /
+  [English](CORE-CONTRACT.md)は12個のobservable candidate boundaryを抽出します。
+  public packageはE67–E72を含みますが、全predecessor evidenceまたはE73Rは
+  含みません。
+- [Backend Conformance Contract v0](BACKEND-CONFORMANCE.ja.md) /
+  [English](BACKEND-CONFORMANCE.md)はexact Licium implementation＋backend
+  profileのrequirementsを定めます。SQLite／Spannerのfull conformanceはどちらも
+  UNTESTEDです。
+- [Public Sample Policy](PUBLIC-SAMPLES.ja.md) /
+  [English](PUBLIC-SAMPLES.md)はreproducible technical eligibilityとcommit／push
+  authorizationを分離します。
+
+role separation、evidence-to-claim ceiling、backend-independent observability、
+不足するIdentity Definition、Context、delegation、lineage semanticsへのfeedbackを
+求めています。最短pathはREADME → Core Contract → Backend Conformance →
+Evidence／runnerです。
 
 ## Repositoryとpublication
 
@@ -101,6 +123,9 @@ encoding、network protocol、distributed transactionを導くことはできま
 
 - [Model boundary](MODEL.ja.md)
 - [Evidence](EVIDENCE.ja.md)
+- [Candidate Core Contract](CORE-CONTRACT.ja.md)
+- [Candidate Backend Conformance](BACKEND-CONFORMANCE.ja.md)
+- [Public Sample Policy](PUBLIC-SAMPLES.ja.md)
 - [Reference slice日本語版](REFERENCE-SLICE.ja.md)
 - [Reference slice English version](REFERENCE-SLICE.en.md)
 - [一次資料と比較](references/identity-authorization-systems.ja.md)

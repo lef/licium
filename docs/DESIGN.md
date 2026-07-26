@@ -1,6 +1,6 @@
 ---
 Type: DESIGN
-Updated: 2026-07-26T20:00:00+09:00
+Updated: 2026-07-26T21:30:00+09:00
 Status: discussion-draft
 Tags: licium, design, identity, repository, evaluation
 Description: Public start node for Licium's current design boundary, executable evidence, and open questions.
@@ -45,6 +45,29 @@ components. Deployment topology is not part of the logical data model.
 `Not supported by an experiment` means that finite evidence did not establish
 a claim. It does not automatically mean that the idea was rejected or is
 impossible.
+
+## Candidate contracts for review
+
+These documents are published now because the lifecycle roles and
+backend-independent observations have become concrete enough to critique
+without selecting a Rust API or database schema.
+
+- [Repository / Evaluation Lifecycle Core Contract v0](CORE-CONTRACT.md) /
+  [日本語](CORE-CONTRACT.ja.md) extracts twelve observable candidate
+  boundaries. The public package bundles E67–E72 but not all predecessor
+  evidence or E73R.
+- [Backend Conformance Contract v0](BACKEND-CONFORMANCE.md) /
+  [日本語](BACKEND-CONFORMANCE.ja.md) defines requirements for an exact Licium
+  implementation plus backend profile. SQLite and Spanner are both UNTESTED
+  for full conformance.
+- [Public Sample Policy](PUBLIC-SAMPLES.md) /
+  [日本語](PUBLIC-SAMPLES.ja.md) separates reproducible technical eligibility
+  from commit and push authorization.
+
+Useful feedback concerns role separation, evidence-to-claim ceilings,
+backend-independent observability, and missing Identity Definition, Context,
+delegation, or lineage semantics. The shortest path is
+README → Core Contract → Backend Conformance → Evidence／runner.
 
 ## Repository and publication
 
@@ -101,6 +124,9 @@ network protocol, or distributed transaction follows merely from the tests.
 
 - [Model boundary](MODEL.md)
 - [Evidence](EVIDENCE.md)
+- [Candidate Core Contract](CORE-CONTRACT.md)
+- [Candidate Backend Conformance](BACKEND-CONFORMANCE.md)
+- [Public Sample Policy](PUBLIC-SAMPLES.md)
 - [Reference slice in English](REFERENCE-SLICE.en.md)
 - [Reference slice in Japanese](REFERENCE-SLICE.ja.md)
 - [Primary references and comparisons](references/identity-authorization-systems.md)

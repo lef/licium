@@ -1,6 +1,6 @@
 ---
 Type: README
-Updated: 2026-07-26T20:00:00+09:00
+Updated: 2026-07-26T21:30:00+09:00
 Status: discussion-draft
 Tags: licium, digital-identity, authentication, repository, evaluation, sqlite
 Description: A minimal substrate and executable reference model for composing digital identities from values and relations.
@@ -57,6 +57,32 @@ What does not exist:
 - OIDC, SAML, LDAP, or SCIM servers;
 - a completed authentication or authorization product.
 
+### Review this candidate
+
+The Repository／Evaluation lifecycle boundary and its backend-independent
+conformance questions are now concrete enough for external review.
+
+Feedback is especially useful on:
+
+- whether Root, Publication, Head, Result, Effect, View, and Observation remain
+  cleanly separated;
+- whether the candidate claims stay within the included evidence;
+- whether the Backend Conformance observations are independent of SQLite;
+- which Identity Definition, Context, delegation, and lineage semantics are
+  still missing.
+
+The shortest review path is:
+
+```text
+README
+  -> Candidate Core Contract
+  -> Candidate Backend Conformance Contract
+  -> Evidence Map / executable reference slice
+```
+
+The candidate contracts are proposed requirements. The included executable
+evidence remains E67–E72; predecessor evidence and E73R are not bundled.
+
 ### Executable evidence
 
 The included E67–E72 reference slice connects one small lifecycle:
@@ -99,6 +125,12 @@ Licium Core or a wire format.
   [日本語](docs/MODEL.ja.md)
 - [Evidence and non-conclusions](docs/EVIDENCE.md) /
   [日本語](docs/EVIDENCE.ja.md)
+- [Candidate Repository / Evaluation Lifecycle Core Contract](docs/CORE-CONTRACT.md) /
+  [日本語](docs/CORE-CONTRACT.ja.md)
+- [Candidate Backend Conformance Contract](docs/BACKEND-CONFORMANCE.md) /
+  [日本語](docs/BACKEND-CONFORMANCE.ja.md)
+- [Public Sample Policy](docs/PUBLIC-SAMPLES.md) /
+  [日本語](docs/PUBLIC-SAMPLES.ja.md)
 - [Reference slice in English](docs/REFERENCE-SLICE.en.md)
 - [Reference slice in Japanese](docs/REFERENCE-SLICE.ja.md)
 - [Comparisons with Zanzibar, Macaroons, and related systems](docs/references/identity-authorization-systems.md) /
@@ -172,6 +204,30 @@ production Identity Providerでもありません。
 - OIDC、SAML、LDAP、SCIM server;
 - 完成したauthentication／authorization product。
 
+### CandidateへのReview
+
+Repository／Evaluation lifecycleの境界とbackend-independentなconformanceの問いが、
+external review可能な具体性を持つ段階になりました。
+
+特に次のfeedbackを求めています。
+
+- Root、Publication、Head、Result、Effect、View、Observationの分離が明確か;
+- candidate claimsが同梱evidenceの範囲を越えていないか;
+- Backend Conformanceの観測がSQLiteから独立しているか;
+- Identity Definition、Context、delegation、lineage semanticsに何が不足するか。
+
+最短のreview path:
+
+```text
+README
+  -> Candidate Core Contract
+  -> Candidate Backend Conformance Contract
+  -> Evidence Map / executable reference slice
+```
+
+candidate contractsは提案中のrequirementsです。同梱するexecutable evidenceは
+E67–E72のままであり、predecessor evidenceとE73Rは含みません。
+
 ### 実行可能なevidence
 
 収録されたE67–E72 reference sliceは、一つの小さなlifecycleを接続します。
@@ -214,6 +270,12 @@ SQLite tableは使い捨てのrealizationであり、Licium Coreでもwire forma
   [English](docs/MODEL.md)
 - [Evidenceと非結論](docs/EVIDENCE.ja.md) /
   [English](docs/EVIDENCE.md)
+- [Repository／Evaluation Lifecycle Core Contract候補](docs/CORE-CONTRACT.ja.md) /
+  [English](docs/CORE-CONTRACT.md)
+- [Backend Conformance Contract候補](docs/BACKEND-CONFORMANCE.ja.md) /
+  [English](docs/BACKEND-CONFORMANCE.md)
+- [Public Sample Policy](docs/PUBLIC-SAMPLES.ja.md) /
+  [English](docs/PUBLIC-SAMPLES.md)
 - [Reference slice日本語版](docs/REFERENCE-SLICE.ja.md)
 - [Reference slice English version](docs/REFERENCE-SLICE.en.md)
 - [Zanzibar、Macaroons、関連systemとの比較](docs/references/identity-authorization-systems.ja.md) /
