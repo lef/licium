@@ -1,0 +1,4 @@
+effect-1	applied	ok	1	1
+effect-1	duplicate	already-applied	0	0
+effect-incomplete	rejected	incomplete-result	0	0
+effect-stale	rejected	stale-expected	0	0

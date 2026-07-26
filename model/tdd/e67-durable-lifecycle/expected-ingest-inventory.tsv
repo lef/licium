@@ -1,0 +1,4 @@
+obj-def	definition	definition-main	select-public	-
+obj-public-a	pair	alice	public-a	occ-public-a
+obj-public-b	pair	alice	public-a	occ-public-b
+obj-secret	pair	alice	SECRET-E67	occ-secret

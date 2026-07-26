@@ -1,12 +1,18 @@
 ---
 Type: DRAFT
 Updated: 2026-07-12T15:42:03+09:00
-Status: draft
+Status: superseded
 Tags: licium, identity-generation, selector, rust, milestone
 Description: 値と関係から目的別のDigital Identity Viewを生成する、未確定の設計仮説。
 ---
 
 # Identity Generation Hypothesis
+
+> **歴史的設計記録 — 現行設計ではありません。**
+>
+> この文書は初期のIdentity generation仮説、Rust spike案、実験順序を設計履歴として
+> 保存しています。現行のauthorityは[Design](DESIGN.md)、
+> [Model boundary](MODEL.md)、[Evidence](EVIDENCE.md)です。
 
 ## 1. Purpose
 

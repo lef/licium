@@ -1,12 +1,18 @@
 ---
 Type: DESIGN
 Updated: 2026-07-12T15:42:03+09:00
-Status: draft
+Status: superseded
 Tags: licium, identity, data-model, relations, views, operations
 Description: Liciumの意味的な最小核と、その上に構成されるIdentity、Directory、Authorization、Repository operationの設計仮説。
 ---
 
 # Licium Minimal Data Model: Discussion Draft
+
+> **歴史的設計記録 — 現行設計ではありません。**
+>
+> この文書は初期のGC、実装状況、Rust spike、実験順序を含む設計状態を履歴として
+> 保存しています。現行のauthorityは[Design](DESIGN.md)、
+> [Model boundary](MODEL.md)、[Evidence](EVIDENCE.md)です。
 
 ## 1. この文書の位置づけ
 
