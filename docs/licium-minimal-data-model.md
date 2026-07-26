@@ -11,8 +11,9 @@ Description: Liciumの意味的な最小核と、その上に構成されるIden
 > **歴史的設計記録 — 現行設計ではありません。**
 >
 > この文書は初期のGC、実装状況、Rust spike、実験順序を含む設計状態を履歴として
-> 保存しています。現行のauthorityは[Design](DESIGN.md)、
-> [Model boundary](MODEL.md)、[Evidence](EVIDENCE.md)です。
+> 保存しています。現行日本語authorityは[Design](DESIGN.ja.md)、
+> [Model boundary](MODEL.ja.md)、[Evidence](EVIDENCE.ja.md)です。English authority:
+> [Design](DESIGN.md)、[Model boundary](MODEL.md)、[Evidence](EVIDENCE.md)。
 
 ## 1. この文書の位置づけ
 

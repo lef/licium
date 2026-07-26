@@ -8,6 +8,8 @@ Description: Self-contained public evidence map for the included E67–E72 refer
 
 # E67–E72 Evidence Map
 
+[日本語版](EVIDENCE.ja.md)
+
 ## Scope
 
 The included model is a disposable SQLite and POSIX-shell reference

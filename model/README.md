@@ -8,6 +8,8 @@ Description: Dependencies, command, expected output, and evidence boundary for t
 
 # E67–E72 Reference Slice
 
+[日本語版](README.ja.md)
+
 ## Requirements
 
 - a POSIX shell;

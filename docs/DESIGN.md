@@ -8,6 +8,8 @@ Description: Public start node for Licium's current design boundary, executable 
 
 # Licium Design
 
+[日本語版](DESIGN.ja.md)
+
 ## Position
 
 Licium is still before a stable specification. Its current implementation
@@ -34,7 +36,7 @@ components. Deployment topology is not part of the logical data model.
 
 | Question | Current answer | Evidence level | Open |
 | --- | --- | --- | --- |
-| Is every association a durable semantic object? | No. Occurrence, Result, lineage, revision, operation, and storage identities serve different roles. E64 did not reject stable lineage outside Evaluation equivalence. | Finite E64 fixture plus current scope correction. | Which logical objects require lineage and how it merges. |
+| Is every association a durable semantic object? | No. Occurrence, Result, lineage, revision, operation, and storage identities serve different roles. E64 did not reject stable lineage outside Evaluation equivalence. | Finite E64 fixture plus current scope correction; E64 is not included in the E67–E72 executable slice. | Which logical objects require lineage and how it merges. |
 | Does computing a Result change Repository state? | No. Ordinary evaluation can be write-free. An effect-targeting evaluation may persist a Result before an accepted Effect links it to a transition and Decision Observation. | E69 and E70 in the included slice. | Recording policy and external-effect delivery. |
 | Has Spanner conformance been demonstrated? | No. Spanner is a design and scalability stress test; no real adapter run exists. | Design-time mapping only, not included as executable evidence. | Schema, retries, knowledge-cut mapping, cost, and multi-region behavior. |
 | Where is authoritative input? | In Source data at the pinned knowledge cut of a complete Repository state／Root. Identity is a derived set of values and relations; directories and protocol forms are projections. | E68, E69, and E71 plus the current conceptual model. | Final Source taxonomy and Definition／Profile／Context semantics. |

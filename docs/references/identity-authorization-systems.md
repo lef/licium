@@ -8,6 +8,8 @@ Description: Primary references used to stress-test Licium's design without impo
 
 # Identity and Authorization Systems
 
+Japanese version: [identity-authorization-systems.ja.md](identity-authorization-systems.ja.md)
+
 ## Purpose
 
 These references sharpen questions asked of Licium's minimal model. They are

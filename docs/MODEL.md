@@ -8,6 +8,8 @@ Description: Public summary of the minimal Pair substrate, semantic Identity bou
 
 # Licium Model Boundary
 
+[日本語版](MODEL.ja.md)
+
 ## Identity is derived
 
 An identifier is not an Entity, and one identifier alone is not a Digital

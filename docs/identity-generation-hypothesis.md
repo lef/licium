@@ -11,8 +11,9 @@ Description: 値と関係から目的別のDigital Identity Viewを生成する�
 > **歴史的設計記録 — 現行設計ではありません。**
 >
 > この文書は初期のIdentity generation仮説、Rust spike案、実験順序を設計履歴として
-> 保存しています。現行のauthorityは[Design](DESIGN.md)、
-> [Model boundary](MODEL.md)、[Evidence](EVIDENCE.md)です。
+> 保存しています。現行日本語authorityは[Design](DESIGN.ja.md)、
+> [Model boundary](MODEL.ja.md)、[Evidence](EVIDENCE.ja.md)です。English authority:
+> [Design](DESIGN.md)、[Model boundary](MODEL.md)、[Evidence](EVIDENCE.md)。
 
 ## 1. Purpose
 

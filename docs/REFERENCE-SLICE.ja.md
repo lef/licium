@@ -28,8 +28,8 @@ Source Pair
 
 一個のSQLite fileによるsliceは、protocol、queue、cache、thread model、service
 topologyを追加せず、このlifecycleを最後まで接続した。一fileは論理monolithを意味
-しない。SQLite tablesはdisposableなreference realizationであり、Core Tupleや
-wire schemaではない。
+しない。同じroleは、単一daemonにもdistributed componentにもmapできる。SQLite
+tablesはdisposableなreference realizationであり、Core Tupleやwire schemaではない。
 
 ## Read-heavyな挙動
 
@@ -76,6 +76,6 @@ Effect Request、State Transition、Decision Observation、View provenanceを一
 
 ## References
 
-- [E67–E72 Evidence Map](EVIDENCE.md)
-- [Reproduction guide](../model/README.md)
+- [E67–E72 Evidence Map](EVIDENCE.ja.md)
+- [再現手順](../model/README.ja.md)
 - [English version](REFERENCE-SLICE.en.md)
