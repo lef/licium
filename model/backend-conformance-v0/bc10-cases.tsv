@@ -1,0 +1,8 @@
+BC10_EXPLANATION_CLOSED	positive	explanation	sut-explain-result	oracle-bc10-explanation-closed	neg-bc10-explanation-closed	E72_EXPLANATION_CLOSURE	1
+BC10_EXPLANATION_LEAK	control	explanation	sut-explain-result	oracle-bc10-explanation-leak	neg-bc10-explanation-leak	E72_EXPLANATION_SECRET	1
+BC10_REPLAY_CLOSED	positive	replay	sut-replay-result	oracle-bc10-replay-closed	neg-bc10-replay-closed	E71_REPLAY_EQUIVALENCE	1
+BC10_REPLAY_LEAK	control	replay	sut-replay-result	oracle-bc10-replay-leak	neg-bc10-replay-leak	E71_EXECUTOR_METADATA	1
+BC10_RESULT_CLOSED	positive	result	sut-evaluate-output	oracle-bc10-result-closed	neg-bc10-result-closed	E68_RESULT_CLOSURE	1
+BC10_RESULT_LEAK	control	result	sut-evaluate-output	oracle-bc10-result-leak	neg-bc10-result-leak	E68_SECRET_LEAK	1
+BC10_VIEW_CLOSED	positive	view	sut-materialize-view	oracle-bc10-view-closed	neg-bc10-view-closed	E69_VIEW_CLOSURE	1
+BC10_VIEW_LEAK	control	view	sut-materialize-view	oracle-bc10-view-leak	neg-bc10-view-leak	E69_VIEW_PROVENANCE_LOSS+E69_VIEW_SECRET_LEAK	2

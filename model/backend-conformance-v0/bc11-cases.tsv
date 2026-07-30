@@ -1,0 +1,8 @@
+BC11_EXPLANATION_CLOSURE	positive	explanation	sut-explain-result	oracle-bc11-explanation-closure	neg-bc11-explanation-closure	E72_EXPLANATION_CLOSURE	1
+BC11_FINDING_CROSS_LINK	positive	integrity	sut-validate-integrity	oracle-bc11-finding-cross-link	neg-bc11-finding-cross-link	E72_INTEGRITY_CROSS_LINK	1
+BC11_FINDING_DANGLING	positive	integrity	sut-validate-integrity	oracle-bc11-finding-dangling	neg-bc11-finding-dangling	E72_INTEGRITY_DANGLING	1
+BC11_LATEST_SUBSTITUTION	control	replay	sut-replay-result	oracle-bc11-latest-substitution	neg-bc11-latest-substitution	E71_LATEST_SUBSTITUTION	1
+BC11_MISSING_AS_EMPTY	control	replay	sut-replay-result	oracle-bc11-missing-as-empty	neg-bc11-missing-as-empty	E71_MISSING_PINNED_ROLES	1
+BC11_REPLAY_RESULT	positive	replay	sut-replay-result	oracle-bc11-replay-result	neg-bc11-replay-result	E71_REPLAY_EQUIVALENCE	1
+BC11_SILENT_CROSS_LINK	control	integrity	sut-validate-integrity	oracle-bc11-silent-cross-link	neg-bc11-silent-cross-link	E72_INTEGRITY_CROSS_LINK_SILENT	1
+BC11_SILENT_DANGLING	control	integrity	sut-validate-integrity	oracle-bc11-silent-dangling	neg-bc11-silent-dangling	E72_INTEGRITY_DANGLING_SILENT	1

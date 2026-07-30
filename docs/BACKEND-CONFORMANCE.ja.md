@@ -1,6 +1,6 @@
 ---
 Type: SPEC
-Updated: 2026-07-26T21:10:00+09:00
+Updated: 2026-07-29T14:49:47+09:00
 Status: draft
 Tags: licium, backend, conformance, repository, evaluation
 Description: Licium implementationとexact backend profileの組に対するcandidate black-box conformance境界。
@@ -186,7 +186,7 @@ conformanceとして数えるのはPASSだけである。full v0 conformanceに�
 isolated runでBC01–BC12の全positiveとrequired controlがPASSすることを要求する。
 UNTESTED、UNAVAILABLE、INVALIDをwaiverへ変換しない。
 
-## Current State
+## Initial planned-RED state（historical）
 
 requirementsと83-subassertion matrixはacceptedである。planned harnessはSQLite
 profileが存在しないため現在失敗する。full v0 conformanceを持つbackendはない。
@@ -211,3 +211,20 @@ UNTESTEDである。emulator evidenceはproduction durabilityやmulti-region beh
 - [Public Evidence Map](EVIDENCE.ja.md)
 - [Reference Slice](REFERENCE-SLICE.ja.md)
 - [Public Sample Policy](PUBLIC-SAMPLES.ja.md)
+
+## Correction -- SQLite reference result
+
+直前のhistorical sectionはinitial planned-RED historyを保存する。後続のexecutionはexact
+test-only `sqlite-reference-v0` tupleをacceptedとした。二つのfresh isolated sealed
+sessionで83/83 subassertions、BC01--BC12、overall reportは`PASS`、non-PASSは0だった。
+tested SUT revisionは`630adfd92cee8ce19249f401b6238e5261a4b33d`である。
+
+このresultは記録されたimplementation、adapter、profile、SQLite runtime、configurationに
+限る。SQLite product一般またはproduction serviceのcertificationではなく、durability、
+availability、security、performanceを確立しない。Spannerは`UNTESTED`のままである。
+
+compactな47-file evidence referenceはquick static integrity checkだけを支持する。nested
+scenario payloadを含まず、fresh full sessionの代用にならない。fresh reproduction用の
+完全な472-file replay sourceを同梱する。exact evidence boundary、expected marker、
+dependency preflight、multi-hour reproduction procedureは
+[SQLite Backend Conformance v0 Result](SQLITE-CONFORMANCE.ja.md)を参照する。

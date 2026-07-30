@@ -1,0 +1,14 @@
+adapter-backend-contract	auth-backend-v1
+authorization-code-pkce	PASS
+backend-invalid-rejection	PASS
+backend-provider	sqlite-provider-v1
+canonical-engine-user-record	ABSENT
+engine	oidc-provider	9.11.1
+id-token-verification	PASS
+no-pkce-rejection	PASS
+root-ref	root-auth-v2
+source-mode	published_head
+source-ref	publication-auth-v2
+userinfo-display-name	Alice Updated
+userinfo-selected-claims	PASS
+OIDC_INTEGRATION_VALID

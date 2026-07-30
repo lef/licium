@@ -1,0 +1,2 @@
+BC02	bc02-steps.tsv	assertion-case-trace	executable	sqlite-bc02-runtime-validation
+BC02	scenario-steps.tsv	assertion-plan	abstract	execution-map-v0-validation

@@ -1,0 +1,5 @@
+{run}	{namespace}	BC09_FAILPOINT_PERSISTS	case-fault	attempt-bc09-fault	sut-apply-effect	hook-bc09-accepted-write	accepted-write	{nonce}	{implementation-revision}
+{run}	{namespace}	BC09_FAILPOINT_PERSISTS	case-stale	attempt-bc09-stale	sut-apply-effect	hook-bc09-rejection-stale	rejection-stale	{nonce}	{implementation-revision}
+{run}	{namespace}	BC09_FAILPOINT_PERSISTS	case-incomplete	attempt-bc09-incomplete	sut-apply-effect	hook-bc09-rejection-incomplete	rejection-incomplete	{nonce}	{implementation-revision}
+{run}	{namespace}	BC09_FAILPOINT_PERSISTS	case-rejected	attempt-bc09-rejected	sut-apply-effect	hook-bc09-rejection-rejected	rejection-rejected	{nonce}	{implementation-revision}
+{run}	{namespace}	BC09_FAILPOINT_PERSISTS	case-duplicate	attempt-bc09-duplicate	sut-apply-effect	hook-bc09-rejection-duplicate	rejection-duplicate	{nonce}	{implementation-revision}

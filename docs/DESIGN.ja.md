@@ -1,6 +1,6 @@
 ---
 Type: DESIGN
-Updated: 2026-07-26T21:30:00+09:00
+Updated: 2026-07-29T14:49:47+09:00
 Status: discussion-draft
 Tags: licium, design, identity, repository, evaluation, japanese
 Description: Liciumの現在の設計境界、実行可能な証拠、未決事項を示す公開用の起点。
@@ -57,8 +57,9 @@ lifecycle rolesとbackend-independentなobservationsが、Rust APIやdatabase sc
   含みません。
 - [Backend Conformance Contract v0](BACKEND-CONFORMANCE.ja.md) /
   [English](BACKEND-CONFORMANCE.md)はexact Licium implementation＋backend
-  profileのrequirementsを定めます。SQLite／Spannerのfull conformanceはどちらも
-  UNTESTEDです。
+  profileのrequirementsを定めます。exact test-only
+  `sqlite-reference-v0` tupleにはaccepted resultがあり、Spannerは
+  `UNTESTED`のままです。
 - [Public Sample Policy](PUBLIC-SAMPLES.ja.md) /
   [English](PUBLIC-SAMPLES.md)はreproducible technical eligibilityとcommit／push
   authorizationを分離します。
@@ -129,3 +130,19 @@ encoding、network protocol、distributed transactionを導くことはできま
 - [Reference slice日本語版](REFERENCE-SLICE.ja.md)
 - [Reference slice English version](REFERENCE-SLICE.en.md)
 - [一次資料と比較](references/identity-authorization-systems.ja.md)
+
+## SQLite reference conformance update
+
+candidate Backend Conformance v0 boundaryには、一つのaccepted execution resultがある。
+exact test-only `sqlite-reference-v0` tupleは二つのfresh isolated sealed sessionで
+83/83を`PASS`とし、BC01--BC12とoverall reportも`PASS`だった。これはそのbound tupleの
+evidenceであり、stable Licium specificationまたはdatabase-product certificationではない。
+詳細は[SQLite Backend Conformance v0 Result](SQLITE-CONFORMANCE.ja.md)を参照する。
+
+47-file evidence referenceはcompactでdigest-checkedなreference sliceである。quick static
+integrity checkには使えるが、nested scenario payloadを含まず、standalone sealed-session
+verifierのinputではない。resultを再現するには公開された完全な472-file replay sourceと、
+同文書に示すmulti-hour fresh runtime、full gate、negative self-testが必要である。
+
+SQLite product一般、production durability、availability、security、performanceは確立しない。
+Spannerは`UNTESTED`のままである。

@@ -1,0 +1,14 @@
+{scenario}	raw-013	action-receipt	occurrence-1	sut-evaluate-pure	accepted
+{scenario}	raw-014	action-receipt	occurrence-2	sut-evaluate-pure	accepted
+{scenario}	raw-003	authoritative-state	after	@relation	present
+{scenario}	raw-004	authoritative-state	after	scope-06	state-0
+{scenario}	raw-001	authoritative-state	before	@relation	present
+{scenario}	raw-002	authoritative-state	before	scope-06	state-0
+{scenario}	raw-006	decision-observation	after	@relation	present
+{scenario}	raw-005	decision-observation	before	@relation	present
+{scenario}	raw-012	evaluation-outcome	action	pinned-source	pair-06
+{scenario}	raw-011	evaluation-outcome	action	subject	alice
+{scenario}	raw-007	evaluation-outcome	occurrence-1	request-06	public-a
+{scenario}	raw-010	evaluation-outcome	occurrence-2	request-06	public-a
+{scenario}	raw-009	result-store	after	@relation	present
+{scenario}	raw-008	result-store	before	@relation	present

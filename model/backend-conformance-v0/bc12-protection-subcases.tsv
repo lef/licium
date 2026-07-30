@@ -1,0 +1,3 @@
+conflict	r-conflict	unresolved-conflict	conflict	conflict-1	forget-conflict	archive-conflict	mutant-detect-protection-bypass-conflict	BC12_PROTECTION_BYPASS_NOT_DETECTED
+publication	r-inflight	pending-publication	publication	publication-1	forget-inflight	archive-inflight	mutant-detect-protection-bypass-publication	BC12_PROTECTION_BYPASS_NOT_DETECTED
+witness	r-audit	audit_hold	witness	w-audit	forget-audit	archive-audit	mutant-detect-protection-bypass-witness	BC12_PROTECTION_BYPASS_NOT_DETECTED

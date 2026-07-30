@@ -1,0 +1,6 @@
+BC03_ACCEPTED_HEAD	positive	case-bc03-accepted	sut-publish-root	ordinary	neg-bc03-accepted-head	PASS
+BC03_PUBLICATION_SEPARATE	positive	case-bc03-accepted	sut-publish-root	ordinary	neg-bc03-publication-separate	PASS
+BC03_REJECTED_IS_HEAD	control	case-bc03-rejected	sut-publish-root	ordinary	neg-bc03-rejected-is-head	PASS
+BC03_STORED_IS_HEAD	control	case-bc03-stored	sut-store-root	ordinary	neg-bc03-stored-is-head	PASS
+BC03_STORED_ROOT_SEPARATE	positive	case-bc03-stored	sut-store-root	ordinary	neg-bc03-stored-root-separate	PASS
+BC03_WRONG_AUTHORITY_HEAD	control	case-bc03-wrong-authority	sut-derive-heads	ordinary	neg-bc03-wrong-authority-head	PASS

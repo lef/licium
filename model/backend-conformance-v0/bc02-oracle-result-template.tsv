@@ -1,0 +1,10 @@
+bc02-complete-available--case-bc02-complete	oracle-bc02-complete-available	exact	norm-bc02-observation	{expected-sha256}	{actual-sha256}	PASS	{evaluator-revision}
+bc02-healthy-retry--case-bc02-incomplete-corrected	oracle-bc02-healthy-retry	exact	norm-bc02-observation	{expected-sha256}	{actual-sha256}	PASS	{evaluator-revision}
+bc02-incomplete-as-complete--case-bc02-incomplete-missing	oracle-bc02-incomplete-as-complete	exact	norm-bc02-observation	{expected-sha256}	{actual-sha256}	PASS	{evaluator-revision}
+bc02-incomplete-as-complete--case-bc02-incomplete-substitution	oracle-bc02-incomplete-as-complete	exact	norm-bc02-observation	{expected-sha256}	{actual-sha256}	PASS	{evaluator-revision}
+bc02-partial-residue--case-bc02-after-root-header	oracle-bc02-partial-residue	exact	norm-bc02-observation	{expected-sha256}	{actual-sha256}	PASS	{evaluator-revision}
+bc02-partial-residue--case-bc02-after-root-member	oracle-bc02-partial-residue	exact	norm-bc02-observation	{expected-sha256}	{actual-sha256}	PASS	{evaluator-revision}
+bc02-poisoned-retry--case-bc02-after-root-header	oracle-bc02-poisoned-retry	exact	norm-bc02-observation	{expected-sha256}	{actual-sha256}	PASS	{evaluator-revision}
+bc02-poisoned-retry--case-bc02-after-root-member	oracle-bc02-poisoned-retry	exact	norm-bc02-observation	{expected-sha256}	{actual-sha256}	PASS	{evaluator-revision}
+bc02-rollback-complete--case-bc02-after-root-header	oracle-bc02-rollback-complete	equality	inventory-repository	{expected-sha256}	{actual-sha256}	PASS	{evaluator-revision}
+bc02-rollback-complete--case-bc02-after-root-member	oracle-bc02-rollback-complete	equality	inventory-repository	{expected-sha256}	{actual-sha256}	PASS	{evaluator-revision}

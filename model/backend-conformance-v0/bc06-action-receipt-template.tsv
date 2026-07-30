@@ -1,0 +1,2 @@
+{run}	{namespace}	{scenario}	occurrence-1	sut-evaluate-pure	accepted	request-06	alice	pair-06	public-a	{nonce-1}
+{run}	{namespace}	{scenario}	occurrence-2	sut-evaluate-pure	accepted	request-06	alice	pair-06	public-a	{nonce-2}

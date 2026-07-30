@@ -1,0 +1,12 @@
+010	create	profile-create-namespace	normal	command-receipt	same
+020	setup	sut-setup-bc08	fault	action-receipt	same
+030	inventory-setup	profile-inventory-bc08	fault	fault-inventory-setup	same
+040	activate-fault	profile-activate-fault-bc08	case-hook	fault-activation-receipt	same
+050	fault-action	sut-apply-effect	fault	fault-trigger-receipt	same
+060	inventory-rollback	profile-inventory-bc08	fault	fault-inventory-rollback	same
+070	clear-fault	profile-clear-fault-bc08	case-hook	command-receipt	same
+080	healthy-action	sut-apply-effect	ordinary	action-receipt	same
+090	inventory-healthy	profile-inventory-bc08	ordinary	fault-inventory-healthy	same
+100	reopen	profile-reopen-namespace	normal	command-receipt	same
+110	inventory-reopened	profile-inventory-bc08	ordinary	inventory-reopened	same
+120	destroy	profile-destroy-namespace	normal	command-receipt	same

@@ -1,0 +1,6 @@
+bc02-partial-residue--case-bc02-after-root-header	gate-set-partial
+bc02-partial-residue--case-bc02-after-root-member	gate-set-partial
+bc02-poisoned-retry--case-bc02-after-root-header	gate-set-poisoned
+bc02-poisoned-retry--case-bc02-after-root-member	gate-set-poisoned
+bc02-rollback-complete--case-bc02-after-root-header	gate-set-rollback
+bc02-rollback-complete--case-bc02-after-root-member	gate-set-rollback

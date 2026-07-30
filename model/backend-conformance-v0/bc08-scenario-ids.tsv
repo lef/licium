@@ -1,0 +1,7 @@
+BC08_COMPLETE_EFFECT	case-bc08-complete	bc08-complete-effect--case-bc08-complete
+BC08_MID_BOUNDARY_FAILURE	case-bc08-boundary	bc08-mid-boundary-failure--case-bc08-boundary
+BC08_MISSING_CURRENT	case-bc08-current	bc08-missing-current--case-bc08-current
+BC08_MISSING_OBSERVATION	case-bc08-observation	bc08-missing-observation--case-bc08-observation
+BC08_MISSING_RESULT	case-bc08-result	bc08-missing-result--case-bc08-result
+BC08_MISSING_TRANSITION	case-bc08-transition	bc08-missing-transition--case-bc08-transition
+BC08_MISSING_VIEW	case-bc08-view	bc08-missing-view--case-bc08-view

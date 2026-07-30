@@ -1,6 +1,6 @@
 ---
 Type: SPEC
-Updated: 2026-07-26T21:10:00+09:00
+Updated: 2026-07-29T14:49:47+09:00
 Status: draft
 Tags: licium, backend, conformance, repository, evaluation
 Description: Candidate black-box conformance boundary for a Licium implementation combined with an exact backend profile.
@@ -190,7 +190,7 @@ Only PASS counts as conformance. Full v0 conformance requires every BC01–BC12
 positive and required control to pass in two fresh isolated runs. UNTESTED,
 UNAVAILABLE, and INVALID do not become waivers.
 
-## Current state
+## Initial planned-RED state (historical)
 
 The requirements and 83-subassertion matrix are accepted. The planned harness
 currently fails because the SQLite profile does not exist. No backend has a
@@ -216,3 +216,23 @@ establish production durability or multi-region behavior.
 - [Public Evidence Map](EVIDENCE.md)
 - [Reference Slice](REFERENCE-SLICE.en.md)
 - [Public Sample Policy](PUBLIC-SAMPLES.md)
+
+## Correction -- SQLite reference result
+
+The preceding historical section preserves the initial planned-RED history. A later
+execution accepted the exact test-only `sqlite-reference-v0` tuple: 83/83
+subassertions, BC01--BC12, and the overall report were `PASS` in two fresh
+isolated sealed sessions, with zero non-PASS dispositions. The tested SUT
+revision is `630adfd92cee8ce19249f401b6238e5261a4b33d`.
+
+This result is limited to the recorded implementation, adapter, profile,
+SQLite runtime, and configuration. It is not a certification of SQLite as a
+product or of a production service, and it does not establish durability,
+availability, security, or performance. Spanner remains `UNTESTED`.
+
+The compact 47-file evidence reference supports a quick static integrity
+check only. It omits nested scenario payload and cannot substitute for a fresh
+full session. The complete 472-file replay source is included for fresh
+reproduction. For the exact evidence boundary, expected markers, dependency
+preflight, and multi-hour reproduction procedure, see
+[SQLite Backend Conformance v0 Result](SQLITE-CONFORMANCE.md).

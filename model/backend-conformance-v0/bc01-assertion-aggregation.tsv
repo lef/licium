@@ -1,0 +1,5 @@
+BC01_ASSOCIATION_IDEMPOTENT	case-bc01-retry	normal-oracle	oracle-bc01-association-idempotent	negative-control	neg-bc01-association-idempotent	PASS
+BC01_DISTINCT_OCCURRENCE	case-bc01-distinct	normal-oracle	oracle-bc01-distinct-occurrence	negative-control	neg-bc01-distinct-occurrence	PASS
+BC01_OCCURRENCE_COLLAPSE	case-bc01-distinct	normal-control	oracle-bc01-occurrence-collapse	negative-control	neg-bc01-occurrence-collapse	PASS
+BC01_PAYLOAD_COLLISION	case-bc01-payload-collision	normal-control	oracle-bc01-payload-collision	negative-control	neg-bc01-payload-collision	PASS
+BC01_RETRY_DUPLICATION	case-bc01-retry	normal-control	oracle-bc01-retry-duplication	negative-control	neg-bc01-retry-duplication	PASS

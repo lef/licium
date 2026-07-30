@@ -1,0 +1,5 @@
+BC06_OBSERVATION_WRITE	control	ordinary	mutant-observation-write	2	PASS
+BC06_PURE_ZERO_AXES	positive	ordinary	mutant-all-three-axis-write	2	PASS
+BC06_REPOSITORY_UNCHANGED	positive	ordinary	mutant-repository-drift	2	PASS
+BC06_RESULT_WRITE	control	ordinary	mutant-result-write	2	PASS
+BC06_STATE_WRITE	control	ordinary	mutant-state-write	2	PASS

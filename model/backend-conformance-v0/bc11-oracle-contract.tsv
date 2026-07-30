@@ -1,0 +1,8 @@
+BC11_EXPLANATION_CLOSURE	oracle-bc11-explanation-closure	closure	explanation-edge-count	5	neg-bc11-explanation-closure	BC11_EXPLANATION_CLOSURE_LOSS_DETECTED
+BC11_FINDING_CROSS_LINK	oracle-bc11-finding-cross-link	exact	finding-count	1	neg-bc11-finding-cross-link	BC11_FINDING_CROSS_LINK_MISSING
+BC11_FINDING_DANGLING	oracle-bc11-finding-dangling	exact	finding-count	2	neg-bc11-finding-dangling	BC11_FINDING_DANGLING_MISSING
+BC11_LATEST_SUBSTITUTION	oracle-bc11-latest-substitution	exact	replay-result-stable	1	neg-bc11-latest-substitution	BC11_LATEST_SUBSTITUTION_MISMATCH_DETECTED
+BC11_MISSING_AS_EMPTY	oracle-bc11-missing-as-empty	exact	unavailable-count	5	neg-bc11-missing-as-empty	BC11_MISSING_AS_EMPTY_NOT_DETECTED
+BC11_REPLAY_RESULT	oracle-bc11-replay-result	closure	replay-result-diff	0	neg-bc11-replay-result	BC11_REPLAY_RESULT_MISMATCH_DETECTED
+BC11_SILENT_CROSS_LINK	oracle-bc11-silent-cross-link	exact	inventory-unchanged	1	neg-bc11-silent-cross-link	BC11_SILENT_CROSS_LINK_DETECTED
+BC11_SILENT_DANGLING	oracle-bc11-silent-dangling	exact	inventory-unchanged	1	neg-bc11-silent-dangling	BC11_SILENT_DANGLING_DETECTED

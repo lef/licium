@@ -1,0 +1,11 @@
+010	create	profile-create-namespace	normal	command-receipt
+020	setup	sut-setup-bc09	ordinary	action-receipt
+030	inventory-before	profile-inventory-bc09	ordinary	inventory-before
+040	action	sut-apply-effect	case-set	action-receipt
+050	observe-after	profile-observe-bc09	ordinary	raw-observation
+060	inventory-after	profile-inventory-bc09	ordinary	inventory-after
+070	reopen	profile-reopen-namespace	normal	command-receipt
+080	inventory-reopened	profile-inventory-bc09	ordinary	inventory-reopened
+090	destroy	profile-destroy-namespace	normal	command-receipt
+100	normalize	runner-normalize-bc09	ordinary	normalized-observation
+110	oracle	runner-oracle-bc09	ordinary	oracle-result

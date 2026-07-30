@@ -1,0 +1,7 @@
+BC09_DIAGNOSTIC_EPHEMERAL	case-bc09-diagnostic	bc09-diagnostic-ephemeral--case-bc09-diagnostic
+BC09_DUPLICATE_PERSISTS	case-bc09-duplicate	bc09-duplicate-persists--case-bc09-duplicate
+BC09_FAILPOINT_PERSISTS	case-bc09-failpoint	bc09-failpoint-persists--case-bc09-failpoint
+BC09_FAILURE_NO_PERSISTENT_ARTIFACT	case-bc09-failure	bc09-failure-no-persistent-artifact--case-bc09-failure
+BC09_INCOMPLETE_PERSISTS	case-bc09-incomplete	bc09-incomplete-persists--case-bc09-incomplete
+BC09_REJECTED_PERSISTS	case-bc09-rejected	bc09-rejected-persists--case-bc09-rejected
+BC09_STALE_PERSISTS	case-bc09-stale	bc09-stale-persists--case-bc09-stale

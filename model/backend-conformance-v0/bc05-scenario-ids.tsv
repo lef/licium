@@ -1,0 +1,9 @@
+BC05_AMBIENT_ADVANCE	case-bc05-ambient	bc05-ambient-advance--case-bc05-ambient
+BC05_BINDING_OMISSION	case-bc05-binding	bc05-binding-omission--case-bc05-binding
+BC05_COMPLETE_CLOSURE	case-bc05-complete	bc05-complete-closure--case-bc05-complete
+BC05_DEFINITION_OMISSION	case-bc05-definition	bc05-definition-omission--case-bc05-definition
+BC05_MISSING_AS_EMPTY	case-bc05-empty	bc05-missing-as-empty--case-bc05-empty
+BC05_PINNED_KNOWLEDGE_CUT	case-bc05-cut	bc05-pinned-knowledge-cut--case-bc05-cut
+BC05_ROOT_OMISSION	case-bc05-root	bc05-root-omission--case-bc05-root
+BC05_SEMANTICS_OMISSION	case-bc05-semantics	bc05-semantics-omission--case-bc05-semantics
+BC05_TRANSITIVE_OMISSION	case-bc05-transitive	bc05-transitive-omission--case-bc05-transitive

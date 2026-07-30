@@ -1,0 +1,7 @@
+BC08_COMPLETE_EFFECT	positive	case-bc08-complete	sut-apply-effect	ordinary	neg-bc08-complete-effect	PASS
+BC08_MID_BOUNDARY_FAILURE	control	case-bc08-boundary	sut-apply-effect	ordinary	neg-bc08-mid-boundary-failure	PASS
+BC08_MISSING_CURRENT	control	case-bc08-current	sut-apply-effect	ordinary	neg-bc08-missing-current	PASS
+BC08_MISSING_OBSERVATION	control	case-bc08-observation	sut-apply-effect	ordinary	neg-bc08-missing-observation	PASS
+BC08_MISSING_RESULT	control	case-bc08-result	sut-apply-effect	ordinary	neg-bc08-missing-result	PASS
+BC08_MISSING_TRANSITION	control	case-bc08-transition	sut-apply-effect	ordinary	neg-bc08-missing-transition	PASS
+BC08_MISSING_VIEW	control	case-bc08-view	sut-apply-effect	ordinary	neg-bc08-missing-view	PASS

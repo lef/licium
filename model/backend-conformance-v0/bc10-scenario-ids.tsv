@@ -1,0 +1,8 @@
+BC10_EXPLANATION_CLOSED	case-bc10-explanation-closed	bc10-explanation-closed--case-bc10-explanation-closed
+BC10_EXPLANATION_LEAK	case-bc10-explanation-leak	bc10-explanation-leak--case-bc10-explanation-leak
+BC10_REPLAY_CLOSED	case-bc10-replay-closed	bc10-replay-closed--case-bc10-replay-closed
+BC10_REPLAY_LEAK	case-bc10-replay-leak	bc10-replay-leak--case-bc10-replay-leak
+BC10_RESULT_CLOSED	case-bc10-result-closed	bc10-result-closed--case-bc10-result-closed
+BC10_RESULT_LEAK	case-bc10-result-leak	bc10-result-leak--case-bc10-result-leak
+BC10_VIEW_CLOSED	case-bc10-view-closed	bc10-view-closed--case-bc10-view-closed
+BC10_VIEW_LEAK	case-bc10-view-leak	bc10-view-leak--case-bc10-view-leak

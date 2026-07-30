@@ -1,0 +1,2 @@
+{run}	{namespace}	{assertion}	case-bc02-after-root-header	attempt-fault-header	sut-form-root	hook-bc02-after-root-header	after-root-header	{nonce}	{implementation-revision}
+{run}	{namespace}	{assertion}	case-bc02-after-root-member	attempt-fault-member	sut-form-root	hook-bc02-after-root-member	after-root-member	{nonce}	{implementation-revision}

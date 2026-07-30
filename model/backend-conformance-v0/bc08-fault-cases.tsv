@@ -1,0 +1,5 @@
+case-bc08-after-observation	hook-bc08-after-observation	after-observation	error-bc08-after-observation	010
+case-bc08-after-transition	hook-bc08-after-transition	after-transition	error-bc08-after-transition	020
+case-bc08-after-view-header	hook-bc08-after-view-header	after-view-header	error-bc08-after-view-header	030
+case-bc08-after-view-row	hook-bc08-after-view-row	after-view-row	error-bc08-after-view-row	040
+case-bc08-before-current-update	hook-bc08-before-current-update	before-current-update	error-bc08-before-current-update	050

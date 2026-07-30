@@ -1,0 +1,5 @@
+meta	global	artifact-kind	sqlite-partial-session
+binding	session	run-a-outer-sha256	bea4434811782f37c87859e0e017660aafc1a539e52277bb5d7231d0ab13d8fe
+binding	session	run-b-outer-sha256	f002b8804a28fac2d246700a3d08c6f9b652f3a275723dad39ea7c006bc8d967
+binding	session	canonical-comparison-sha256	96530a44d4c9828d8632f1ee9ec22c33b8d861b1cf191dcd88a6d0a522e2d4d6
+binding	session	aggregate-dispositions-sha256	4cc2244ecf240b3bf7735d98e88594dcbaca7cad4ad82b403826295eb0574cea

@@ -1,0 +1,6 @@
+context-a	issued	sub-public-alice-v1
+context-b	issued	sub-public-alice-v1
+distinct-account	issued	sub-public-bob-v1
+pairwise-a	issued	sub-pairwise-alice-a-v1
+pairwise-b	issued	sub-pairwise-alice-b-v1
+policy-v2	migration_required	-

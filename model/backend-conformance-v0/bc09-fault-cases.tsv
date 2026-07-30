@@ -1,0 +1,5 @@
+case-fault	hook-bc09-accepted-write	accepted-write	error-bc09-accepted-write	010
+case-stale	hook-bc09-rejection-stale	rejection-stale	error-bc09-rejection-stale	020
+case-incomplete	hook-bc09-rejection-incomplete	rejection-incomplete	error-bc09-rejection-incomplete	030
+case-rejected	hook-bc09-rejection-rejected	rejection-rejected	error-bc09-rejection-rejected	040
+case-duplicate	hook-bc09-rejection-duplicate	rejection-duplicate	error-bc09-rejection-duplicate	050

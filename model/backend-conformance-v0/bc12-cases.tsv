@@ -1,0 +1,11 @@
+BC12_ARCHIVE_BYPASS	control	placement	sut-evaluate-placement	oracle-bc12-archive-bypass	neg-bc12-archive-bypass	E73R_UNVERIFIED_ARCHIVE_RELEASE	1
+BC12_CANONICAL_UNCHANGED	positive	placement	sut-evaluate-placement	oracle-bc12-canonical-unchanged	neg-bc12-canonical-unchanged	E73R_CANONICAL_INVENTORY	1
+BC12_DECISION_PROVENANCE	positive	placement	sut-evaluate-placement	oracle-bc12-decision-provenance	neg-bc12-decision-provenance	E73R_DECISION_PROVENANCE	1
+BC12_DERIVED_PROTECTION	positive	placement	sut-evaluate-placement	oracle-bc12-derived-protection	neg-bc12-derived-protection	E73R_DERIVED_PROTECTIONS	1
+BC12_ELIGIBILITY_DELETE	control	placement	sut-evaluate-placement	oracle-bc12-eligibility-delete	neg-bc12-eligibility-delete	E73R_FORGET_IS_DELETE	1
+BC12_FORGET_BYPASS	control	placement	sut-evaluate-placement	oracle-bc12-forget-bypass	neg-bc12-forget-bypass	E73R_FORGET_EVENT_IGNORED	1
+BC12_FORGET_CONSUMED	positive	placement	sut-evaluate-placement	oracle-bc12-forget-consumed	neg-bc12-forget-consumed	E73R_FORGET_CONSUMPTION	1
+BC12_NOOP_EVALUATOR	control	placement	sut-evaluate-placement	oracle-bc12-noop-evaluator	neg-bc12-noop-evaluator	E73R_NON_EMPTY_RELATIONS	1
+BC12_PLACEMENT_DECISION	positive	placement	sut-evaluate-placement	oracle-bc12-placement-decision	neg-bc12-placement-decision	E73R_PLACEMENT_DECISIONS	1
+BC12_PROTECTION_BYPASS	control	placement	sut-evaluate-placement	oracle-bc12-protection-bypass	neg-bc12-protection-bypass	E73R_PROTECTION_BYPASS	3
+BC12_WINDOW_BYPASS	control	placement	sut-evaluate-placement	oracle-bc12-window-bypass	neg-bc12-window-bypass	E73R_POLICY_WINDOW_IGNORED	1

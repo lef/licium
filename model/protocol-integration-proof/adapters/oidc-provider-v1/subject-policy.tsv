@@ -1,0 +1,4 @@
+account-alice	entity-alice	pairwise	pairwise-v1	subject-policy-v1	https://rp-a.invalid	sub-pairwise-alice-a-v1
+account-alice	entity-alice	pairwise	pairwise-v1	subject-policy-v1	https://rp-b.invalid	sub-pairwise-alice-b-v1
+account-alice	entity-alice	public	public-v1	subject-policy-v1	-	sub-public-alice-v1
+account-bob	entity-bob	public	public-v1	subject-policy-v1	-	sub-public-bob-v1

@@ -1,0 +1,10 @@
+BC02_COMPLETE_AVAILABLE	case-bc02-complete	positive	complete	sut-form-root	-	-	-	complete	complete	PASS
+BC02_HEALTHY_RETRY	case-bc02-incomplete-corrected	positive	incomplete-missing	sut-form-root	-	sut-correct-root-input	sut-retry-root	root-unavailable	complete	PASS
+BC02_INCOMPLETE_AS_COMPLETE	case-bc02-incomplete-missing	control	incomplete-missing	sut-form-root	-	-	-	root-unavailable	root-unavailable	PASS
+BC02_INCOMPLETE_AS_COMPLETE	case-bc02-incomplete-substitution	control	incomplete-substitution	sut-form-root	-	-	-	root-unavailable	root-unavailable	PASS
+BC02_PARTIAL_RESIDUE	case-bc02-after-root-header	control	complete	sut-form-root	hook-bc02-after-root-header	-	-	fault-rollback	rollback-clean	PASS
+BC02_PARTIAL_RESIDUE	case-bc02-after-root-member	control	complete	sut-form-root	hook-bc02-after-root-member	-	-	fault-rollback	rollback-clean	PASS
+BC02_POISONED_RETRY	case-bc02-after-root-header	control	complete	sut-form-root	hook-bc02-after-root-header	-	sut-retry-root	fault-rollback	complete	PASS
+BC02_POISONED_RETRY	case-bc02-after-root-member	control	complete	sut-form-root	hook-bc02-after-root-member	-	sut-retry-root	fault-rollback	complete	PASS
+BC02_ROLLBACK_COMPLETE	case-bc02-after-root-header	positive	complete	sut-form-root	hook-bc02-after-root-header	-	-	fault-rollback	rollback-clean	PASS
+BC02_ROLLBACK_COMPLETE	case-bc02-after-root-member	positive	complete	sut-form-root	hook-bc02-after-root-member	-	-	fault-rollback	rollback-clean	PASS

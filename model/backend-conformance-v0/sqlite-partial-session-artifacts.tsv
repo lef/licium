@@ -1,0 +1,14 @@
+preseal	file	root	aggregate-dispositions.tsv	rows=166	run-a-plus-run-b	runner
+preseal	file	root	assertions.tsv	rows=83	run-a-exact	runner
+preseal	file	root	canonical-comparison.tsv	rows=registry-driven	sqlite-partial-canonical.tsv	runner
+preseal	file	root	control-receipts.tsv	rows=14	sqlite-partial-session-mutants.tsv	runner
+preseal	file	root	lifecycle-command-receipt.tsv	rows=1	lifecycle-sentinel	adapter
+preseal	file	root	run-metadata.tsv	rows=variable	run-outer-and-contract-bindings	runner
+preseal	file	lifecycle	lifecycle/run-a/sentinel-a	rows=1	namespace-isolation	adapter
+preseal	directory	run	run-a	sealed-run	sqlite-partial-run-artifacts.tsv	runner
+preseal	directory	run	run-b	sealed-run	sqlite-partial-run-artifacts.tsv	runner
+preseal	directory	lifecycle	lifecycle/run-a	exact-directory	namespace-isolation	adapter
+preseal	directory	lifecycle	lifecycle/run-b	exact-directory	namespace-isolation	adapter
+sealed	file	root	outer-receipt.tsv	rows=2	payload-manifest-sha256	runner
+sealed	file	root	payload-manifest.tsv	rows=variable	exact-preseal-payload	runner
+sealed	file	root	report.tsv	rows=variable	assertions-plus-bindings	runner

@@ -1,0 +1,2 @@
+accepted	sqlite-provider-v1	account-alice	sub-public-alice-v1	root-auth-v1	definition-auth-v1	profile-login-v1	context-claims-v1	ephemeral	outcome-valid-v1	projection-receipt-v1	oidc-adapter-policy-v1	rp-proof-v1	interactive-login-v1	projection-basic-v1	assurance-password-fixture-v1	exact_root	write-receipt-v1
+rejected	sqlite-provider-v1	invalid_proof	outcome-invalid-v1	oidc-adapter-policy-v1	exact_root	write-receipt-v1

@@ -1,0 +1,9 @@
+BC05_AMBIENT_ADVANCE	control	case-bc05-ambient	sut-advance-and-resolve	ordinary	neg-bc05-ambient-advance	PASS
+BC05_BINDING_OMISSION	control	case-bc05-binding	sut-resolve-pinned-closure	ordinary	neg-bc05-binding-omission	PASS
+BC05_COMPLETE_CLOSURE	positive	case-bc05-complete	sut-resolve-pinned-closure	ordinary	neg-bc05-complete-closure	PASS
+BC05_DEFINITION_OMISSION	control	case-bc05-definition	sut-resolve-pinned-closure	ordinary	neg-bc05-definition-omission	PASS
+BC05_MISSING_AS_EMPTY	control	case-bc05-empty	sut-resolve-pinned-closure	ordinary	neg-bc05-missing-as-empty	PASS
+BC05_PINNED_KNOWLEDGE_CUT	positive	case-bc05-cut	sut-advance-and-resolve	ordinary	neg-bc05-pinned-knowledge-cut	PASS
+BC05_ROOT_OMISSION	control	case-bc05-root	sut-resolve-pinned-closure	ordinary	neg-bc05-root-omission	PASS
+BC05_SEMANTICS_OMISSION	control	case-bc05-semantics	sut-resolve-pinned-closure	ordinary	neg-bc05-semantics-omission	PASS
+BC05_TRANSITIVE_OMISSION	control	case-bc05-transitive	sut-resolve-pinned-closure	ordinary	neg-bc05-transitive-omission	PASS

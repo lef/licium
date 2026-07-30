@@ -1,0 +1,11 @@
+BC12_ARCHIVE_BYPASS	oracle-bc12-archive-bypass
+BC12_CANONICAL_UNCHANGED	oracle-bc12-canonical-unchanged
+BC12_DECISION_PROVENANCE	oracle-bc12-decision-provenance
+BC12_DERIVED_PROTECTION	oracle-bc12-derived-protection
+BC12_ELIGIBILITY_DELETE	oracle-bc12-eligibility-delete
+BC12_FORGET_BYPASS	oracle-bc12-forget-bypass
+BC12_FORGET_CONSUMED	oracle-bc12-forget-consumed
+BC12_NOOP_EVALUATOR	oracle-bc12-noop-evaluator
+BC12_PLACEMENT_DECISION	oracle-bc12-placement-decision
+BC12_PROTECTION_BYPASS	oracle-bc12-protection-bypass
+BC12_WINDOW_BYPASS	oracle-bc12-window-bypass

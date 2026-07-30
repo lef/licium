@@ -1,6 +1,6 @@
 ---
 Type: DESIGN
-Updated: 2026-07-26T21:30:00+09:00
+Updated: 2026-07-29T14:49:47+09:00
 Status: discussion-draft
 Tags: licium, design, identity, repository, evaluation
 Description: Public start node for Licium's current design boundary, executable evidence, and open questions.
@@ -58,8 +58,9 @@ without selecting a Rust API or database schema.
   evidence or E73R.
 - [Backend Conformance Contract v0](BACKEND-CONFORMANCE.md) /
   [日本語](BACKEND-CONFORMANCE.ja.md) defines requirements for an exact Licium
-  implementation plus backend profile. SQLite and Spanner are both UNTESTED
-  for full conformance.
+  implementation plus backend profile. The exact test-only
+  `sqlite-reference-v0` tuple has an accepted result; Spanner remains
+  `UNTESTED`.
 - [Public Sample Policy](PUBLIC-SAMPLES.md) /
   [日本語](PUBLIC-SAMPLES.ja.md) separates reproducible technical eligibility
   from commit and push authorization.
@@ -130,3 +131,20 @@ network protocol, or distributed transaction follows merely from the tests.
 - [Reference slice in English](REFERENCE-SLICE.en.md)
 - [Reference slice in Japanese](REFERENCE-SLICE.ja.md)
 - [Primary references and comparisons](references/identity-authorization-systems.md)
+
+## SQLite reference conformance update
+
+The candidate Backend Conformance v0 boundary has one accepted execution result:
+the exact test-only `sqlite-reference-v0` tuple recorded 83/83 `PASS` in two
+fresh isolated sealed sessions, with BC01--BC12 and the overall report `PASS`.
+It is evidence about that bound tuple, not a stable Licium specification or a
+database-product certification. See [SQLite Backend Conformance v0 Result](SQLITE-CONFORMANCE.md).
+
+The 47-file evidence reference is a compact, digest-checked reference slice.
+It is useful for a quick static integrity check, but it omits nested scenario
+payload and is not input to a standalone sealed-session verifier. Reproducing
+the result requires the complete published 472-file replay source and the
+multi-hour fresh runtime, full gate, and negative self-tests described there.
+
+SQLite product behavior, production durability, availability, security, and
+performance are not established. Spanner remains `UNTESTED`.

@@ -1,0 +1,10 @@
+{scenario}	obs-{case}-001	diagnostic	disposition	result	{diagnostic-disposition}
+{scenario}	obs-{case}-002	diagnostic	reason	result	{diagnostic-reason}
+{scenario}	obs-{case}-003	repository	inventory-equal	result	{repository-inventory-equal}
+{scenario}	obs-{case}-004	state-transition	delta	result	{state-transition-delta}
+{scenario}	obs-{case}-005	decision-observation	delta	result	{decision-observation-delta}
+{scenario}	obs-{case}-006	view	delta	result	{view-delta}
+{scenario}	obs-{case}-007	current	delta	result	{current-delta}
+{scenario}	obs-{case}-008	persistent-attempt	delta	result	{persistent-attempt-delta}
+{scenario}	obs-{case}-009	delivery	count	result	{delivery-count}
+{scenario}	obs-{case}-010	fault-hook	triggered-count	result	{fault-hook-triggered-count}

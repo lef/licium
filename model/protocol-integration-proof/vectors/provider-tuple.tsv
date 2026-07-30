@@ -1,0 +1,3 @@
+contract-semantics	auth-backend-v1
+provider-a	sqlite-provider-v1
+provider-b	flatfile-posix-provider-v1

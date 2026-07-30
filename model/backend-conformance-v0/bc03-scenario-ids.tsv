@@ -1,0 +1,6 @@
+BC03_ACCEPTED_HEAD	case-bc03-accepted	bc03-accepted-head--case-bc03-accepted
+BC03_PUBLICATION_SEPARATE	case-bc03-accepted	bc03-publication-separate--case-bc03-accepted
+BC03_REJECTED_IS_HEAD	case-bc03-rejected	bc03-rejected-is-head--case-bc03-rejected
+BC03_STORED_IS_HEAD	case-bc03-stored	bc03-stored-is-head--case-bc03-stored
+BC03_STORED_ROOT_SEPARATE	case-bc03-stored	bc03-stored-root-separate--case-bc03-stored
+BC03_WRONG_AUTHORITY_HEAD	case-bc03-wrong-authority	bc03-wrong-authority-head--case-bc03-wrong-authority

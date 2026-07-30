@@ -1,0 +1,7 @@
+{run}	{namespace}	BC02_COMPLETE_AVAILABLE	case-bc02-complete	attempt-complete	sut-form-root	complete	request-02	root-02	3	3	3	genesis-02	committed	{nonce}	-	-	-	-
+{run}	{namespace}	BC02_HEALTHY_RETRY	case-bc02-incomplete-corrected	attempt-initial	sut-form-root	root-unavailable	request-02	root-02	3	2	0	-	rolled-back	{nonce-initial}	error-bc02-incomplete	LICIUM_BC02_ROOT_INCOMPLETE	object-c	missing-required-member
+{run}	{namespace}	BC02_HEALTHY_RETRY	case-bc02-incomplete-corrected	attempt-retry	sut-retry-root	complete	request-02	root-02	3	3	3	genesis-02	committed	{nonce-retry}	-	-	-	-
+{run}	{namespace}	BC02_INCOMPLETE_AS_COMPLETE	case-bc02-incomplete-missing	attempt-initial	sut-form-root	root-unavailable	request-02	root-02	3	2	0	-	rolled-back	{nonce}	error-bc02-incomplete	LICIUM_BC02_ROOT_INCOMPLETE	object-c	missing-required-member
+{run}	{namespace}	BC02_INCOMPLETE_AS_COMPLETE	case-bc02-incomplete-substitution	attempt-initial	sut-form-root	root-unavailable	request-02	root-02	3	2	0	-	rolled-back	{nonce}	error-bc02-incomplete	LICIUM_BC02_ROOT_INCOMPLETE	object-c	missing-required-member
+{run}	{namespace}	BC02_POISONED_RETRY	case-bc02-after-root-header	attempt-retry	sut-retry-root	complete	request-02	root-02	3	3	3	genesis-02	committed	{nonce-retry}	-	-	-	-
+{run}	{namespace}	BC02_POISONED_RETRY	case-bc02-after-root-member	attempt-retry	sut-retry-root	complete	request-02	root-02	3	3	3	genesis-02	committed	{nonce-retry}	-	-	-	-

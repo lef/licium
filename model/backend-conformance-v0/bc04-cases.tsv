@@ -1,0 +1,5 @@
+BC04_AMBIENT_FALLBACK	control	case-bc04-ambient	sut-read-published	ordinary	neg-bc04-ambient-fallback	PASS
+BC04_EXACT_PUBLISHED_COLLAPSE	control	case-bc04-collapse	sut-read-published	ordinary	neg-bc04-exact-published-collapse	PASS
+BC04_EXACT_READ	positive	case-bc04-exact	sut-read-exact	ordinary	neg-bc04-exact-read	PASS
+BC04_PUBLISHED_READ	positive	case-bc04-published	sut-read-published	ordinary	neg-bc04-published-read	PASS
+BC04_UNACCEPTED_AVAILABLE	control	case-bc04-unaccepted	sut-read-published	ordinary	neg-bc04-unaccepted-available	PASS

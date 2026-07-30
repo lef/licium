@@ -1,0 +1,12 @@
+harness-bc10-noop	-	harness-mutant	missing-action-receipt	BC10_SUT_ACTION_MISSING
+harness-bc10-observer-synthesis	-	observer-mutant	normalized-without-raw	BC10_COVERAGE_INVALID
+harness-bc10-raw-post-seal	-	evidence-mutant	raw-post-seal-tamper	BC10_RAW_SEAL_INVALID
+neg-bc10-explanation-closed	neg-bc10-explanation-closed	sut-mutant	explanation-member-loss	BC10_EXPLANATION_CLOSURE_LOSS_DETECTED
+neg-bc10-explanation-leak	neg-bc10-explanation-leak	observer-mutant	explanation-secret-leak	BC10_EXPLANATION_SECRET_LEAK_DETECTED
+neg-bc10-replay-closed	neg-bc10-replay-closed	sut-mutant	replay-closure-loss	BC10_REPLAY_CLOSURE_LOSS_DETECTED
+neg-bc10-replay-leak	neg-bc10-replay-leak	observer-mutant	replay-executor-metadata	BC10_REPLAY_METADATA_LEAK_DETECTED
+neg-bc10-result-closed	neg-bc10-result-closed	sut-mutant	result-closure-loss	BC10_RESULT_CLOSURE_LOSS_DETECTED
+neg-bc10-result-leak	neg-bc10-result-leak	observer-mutant	result-secret-leak	BC10_RESULT_SECRET_LEAK_DETECTED
+neg-bc10-view-closed	neg-bc10-view-closed	sut-mutant	view-member-loss	BC10_VIEW_CLOSURE_LOSS_DETECTED
+neg-bc10-view-leak-provenance	neg-bc10-view-leak	observer-mutant	view-provenance-loss	BC10_VIEW_PROVENANCE_LOSS_DETECTED
+neg-bc10-view-leak-secret	neg-bc10-view-leak	observer-mutant	view-secret-leak	BC10_VIEW_SECRET_LEAK_DETECTED

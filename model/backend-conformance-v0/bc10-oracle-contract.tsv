@@ -1,0 +1,9 @@
+BC10_EXPLANATION_CLOSED	oracle-bc10-explanation-closed	closure	explanation-edge-count	5	neg-bc10-explanation-closed	BC10_EXPLANATION_CLOSURE_LOSS_DETECTED
+BC10_EXPLANATION_LEAK	oracle-bc10-explanation-leak	zero	secret-count	0	neg-bc10-explanation-leak	BC10_EXPLANATION_SECRET_LEAK_DETECTED
+BC10_REPLAY_CLOSED	oracle-bc10-replay-closed	exact	symmetric-difference	0	neg-bc10-replay-closed	BC10_REPLAY_CLOSURE_LOSS_DETECTED
+BC10_REPLAY_LEAK	oracle-bc10-replay-leak	zero	ambient-count	0	neg-bc10-replay-leak	BC10_REPLAY_METADATA_LEAK_DETECTED
+BC10_RESULT_CLOSED	oracle-bc10-result-closed	closure	required-input-role-count	5	neg-bc10-result-closed	BC10_RESULT_CLOSURE_LOSS_DETECTED
+BC10_RESULT_LEAK	oracle-bc10-result-leak	zero	secret-count	0	neg-bc10-result-leak	BC10_RESULT_SECRET_LEAK_DETECTED
+BC10_VIEW_CLOSED	oracle-bc10-view-closed	closure	selected-view-row-count	1	neg-bc10-view-closed	BC10_VIEW_CLOSURE_LOSS_DETECTED
+BC10_VIEW_LEAK	oracle-bc10-view-leak	exact	required-provenance-count	3	neg-bc10-view-leak-provenance	BC10_VIEW_PROVENANCE_LOSS_DETECTED
+BC10_VIEW_LEAK	oracle-bc10-view-leak	zero	secret-count	0	neg-bc10-view-leak-secret	BC10_VIEW_SECRET_LEAK_DETECTED

@@ -1,0 +1,4 @@
+historical-replay	current	display-name	Alice Updated
+historical-replay	current	root_ref	root-auth-v2
+historical-replay	historical	display-name	Alice Example
+historical-replay	historical	root_ref	root-auth-v1

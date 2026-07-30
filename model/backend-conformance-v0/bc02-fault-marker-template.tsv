@@ -1,0 +1,2 @@
+{assertion}	{run}	case-bc02-after-root-header	{namespace}	{nonce}	{implementation-revision}	hook-bc02-after-root-header	after-root-header	true	{before-inventory-sha256}	{after-inventory-sha256}
+{assertion}	{run}	case-bc02-after-root-member	{namespace}	{nonce}	{implementation-revision}	hook-bc02-after-root-member	after-root-member	true	{before-inventory-sha256}	{after-inventory-sha256}

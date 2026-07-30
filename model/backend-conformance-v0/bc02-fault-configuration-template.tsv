@@ -1,0 +1,2 @@
+{run}	{namespace}	{assertion}	case-bc02-after-root-header	hook-bc02-after-root-header	after-root-header	{nonce}	{implementation-revision}	{activation-sha256}	trigger-bc02-after-root-header	{ddl-sha256}	{error-literal-sha256}	{when-predicate-sha256}	configured
+{run}	{namespace}	{assertion}	case-bc02-after-root-member	hook-bc02-after-root-member	after-root-member	{nonce}	{implementation-revision}	{activation-sha256}	trigger-bc02-after-root-member	{ddl-sha256}	{error-literal-sha256}	{when-predicate-sha256}	configured

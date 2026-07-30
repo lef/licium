@@ -1,0 +1,12 @@
+{scenario}	raw-001	effect	{effect}	outcome	{outcome}
+{scenario}	raw-002	evaluation-result	{result}	digest	{result-digest}
+{scenario}	raw-003	state-transition	{transition}	cardinality	{transition-count}
+{scenario}	raw-004	decision-observation	{observation}	cardinality	{observation-count}
+{scenario}	raw-005	view-header	{view}	cardinality	{view-header-count}
+{scenario}	raw-006	view-row	{view}	cardinality	{view-row-count}
+{scenario}	raw-007	current-view	{scope}	cardinality	{current-count}
+{scenario}	raw-008	effect-set	{effect}	completeness	{completeness}
+{scenario}	raw-009	retry	{effect}	effect-ref	{retry-effect}
+{scenario}	raw-010	retry	{effect}	artifact-cardinality	{retry-cardinality}
+{scenario}	raw-011	fault-set	{effect}	triggered-hooks	{triggered-hooks}
+{scenario}	raw-012	fault-set	{effect}	partial-artifacts	{partial-artifacts}

@@ -1,0 +1,6 @@
+public-context-a	https://issuer.invalid/licium-proof	entity-alice	account-alice	public	public-v1	subject-policy-v1	-	context-claims-v1	sub-public-alice-v1
+public-context-b	https://issuer.invalid/licium-proof	entity-alice	account-alice	public	public-v1	subject-policy-v1	-	context-claims-v2	sub-public-alice-v1
+public-incompatible	https://issuer.invalid/licium-proof	entity-alice	account-alice	public	public-v1	subject-policy-v2	-	context-claims-v1	migration_required
+pairwise-sector-a	https://issuer.invalid/licium-proof	entity-alice	account-alice	pairwise	pairwise-v1	subject-policy-v1	https://rp-a.invalid	context-claims-v1	sub-pairwise-alice-a-v1
+pairwise-sector-b	https://issuer.invalid/licium-proof	entity-alice	account-alice	pairwise	pairwise-v1	subject-policy-v1	https://rp-b.invalid	context-claims-v1	sub-pairwise-alice-b-v1
+public-distinct	https://issuer.invalid/licium-proof	entity-bob	account-bob	public	public-v1	subject-policy-v1	-	context-claims-v1	sub-public-bob-v1

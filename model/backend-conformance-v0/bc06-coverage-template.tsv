@@ -1,0 +1,17 @@
+{scenario}	raw-001	record	{scenario}	obs-002	all
+{scenario}	raw-002	record	{scenario}	obs-002	all
+{scenario}	raw-003	record	{scenario}	obs-002	all
+{scenario}	raw-004	record	{scenario}	obs-002	all
+{scenario}	raw-005	record	{scenario}	obs-003	all
+{scenario}	raw-006	record	{scenario}	obs-003	all
+{scenario}	raw-007	record	{scenario}	obs-001	all
+{scenario}	raw-007	record	{scenario}	obs-010	all
+{scenario}	raw-008	record	{scenario}	obs-004	all
+{scenario}	raw-009	record	{scenario}	obs-004	all
+{scenario}	raw-010	record	{scenario}	obs-005	all
+{scenario}	raw-011	record	{scenario}	obs-006	all
+{scenario}	raw-012	record	{scenario}	obs-007	all
+{scenario}	raw-013	record	{scenario}	obs-001	all
+{scenario}	raw-013	record	{scenario}	obs-008	all
+{scenario}	raw-014	record	{scenario}	obs-005	all
+{scenario}	raw-014	record	{scenario}	obs-009	all

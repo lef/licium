@@ -1,0 +1,6 @@
+context-a	account-alice	entity-alice	public	public-v1	subject-policy-v1	context-claims-v1	-
+context-b	account-alice	entity-alice	public	public-v1	subject-policy-v1	context-claims-v2	-
+distinct-account	account-bob	entity-bob	public	public-v1	subject-policy-v1	context-claims-v1	-
+pairwise-a	account-alice	entity-alice	pairwise	pairwise-v1	subject-policy-v1	context-claims-v1	https://rp-a.invalid
+pairwise-b	account-alice	entity-alice	pairwise	pairwise-v1	subject-policy-v1	context-claims-v1	https://rp-b.invalid
+policy-v2	account-alice	entity-alice	public	public-v1	subject-policy-v2	context-claims-v1	-

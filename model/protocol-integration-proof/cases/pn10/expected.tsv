@@ -1,0 +1,5 @@
+credential-source-stability	credential	invalid_disposition	rejected
+credential-source-stability	credential	valid_disposition	accepted
+credential-source-stability	source	equality	equal
+credential-source-stability	source	row_count	7
+credential-source-stability	source	secret_sentinel_rows	2

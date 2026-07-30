@@ -1,0 +1,12 @@
+rule-attempt-distinct	action-receipt-or-fault-trigger-receipt	two	distinct-attempt-same-request-root	one	normalized-provenance
+rule-correction-isolation	correction-write-guard-receipt,together-with-inventory-repository	three	insert-only-guard-and-exact-inventory-delta	one	normalized-correction-isolation
+rule-data-version-change	data-version-receipt,together-with-observer-custody-receipt	three	same-held-observer-inequality	one	normalized-retry-commit
+rule-data-version-equality	data-version-receipt,together-with-observer-custody-receipt	three	same-held-observer-equality	one	normalized-no-commit
+rule-direct-field	action-receipt,correction-receipt,fault-activation-receipt,fault-trigger-receipt,command-receipt	one	exact-field-copy	one	normalized-field
+rule-fault-rollback	fault-trigger-receipt,together-with-inventory-repository	two	injected-error-and-rollback	one	normalized-fault-outcome
+rule-fault-trigger	fault-configuration-receipt,together-with-fault-activation-receipt,fault-trigger-receipt,and-evidence-binding-receipt	seven	exact-binding-and-transient-shape	one	normalized-trigger
+rule-inventory-count	inventory-repository	one	exact-semantic-row-count	one	normalized-count
+rule-inventory-delta	correction-receipt,together-with-inventory-repository	three	exact-source-object-insert-delta	one	normalized-correction
+rule-inventory-equality	inventory-repository	two	byte-equality	one	normalized-unchanged
+rule-resolution-field	resolution-receipt	one	exact-stage-field	one	normalized-resolution
+rule-retry-hook-absent	command-receipt	one	reviewed-argv-has-no-hook-phase	one	normalized-retry-hook

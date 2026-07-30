@@ -1,0 +1,5 @@
+BC08_MID_BOUNDARY_FAILURE	{run}	case-bc08-after-observation	{namespace}	{nonce}	{implementation-revision}	hook-bc08-after-observation	after-observation	true	{before-inventory-sha256}	{after-inventory-sha256}
+BC08_MID_BOUNDARY_FAILURE	{run}	case-bc08-after-transition	{namespace}	{nonce}	{implementation-revision}	hook-bc08-after-transition	after-transition	true	{before-inventory-sha256}	{after-inventory-sha256}
+BC08_MID_BOUNDARY_FAILURE	{run}	case-bc08-after-view-header	{namespace}	{nonce}	{implementation-revision}	hook-bc08-after-view-header	after-view-header	true	{before-inventory-sha256}	{after-inventory-sha256}
+BC08_MID_BOUNDARY_FAILURE	{run}	case-bc08-after-view-row	{namespace}	{nonce}	{implementation-revision}	hook-bc08-after-view-row	after-view-row	true	{before-inventory-sha256}	{after-inventory-sha256}
+BC08_MID_BOUNDARY_FAILURE	{run}	case-bc08-before-current-update	{namespace}	{nonce}	{implementation-revision}	hook-bc08-before-current-update	before-current-update	true	{before-inventory-sha256}	{after-inventory-sha256}

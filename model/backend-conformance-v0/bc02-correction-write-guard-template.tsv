@@ -1,0 +1,1 @@
+{run}	{namespace}	BC02_HEALTHY_RETRY	case-bc02-incomplete-corrected	correction-correction-02	sut-correct-root-input	source_object	object-c	insert-only	{guard-revision}	{guard-ddl-sha256}	enforced	{nonce-correction}

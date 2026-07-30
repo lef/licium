@@ -1,0 +1,5 @@
+BC09_FAILPOINT_PERSISTS	{run}	case-fault	{namespace}	{nonce}	{implementation-revision}	hook-bc09-accepted-write	accepted-write	true	{before-inventory-sha256}	{after-inventory-sha256}
+BC09_FAILPOINT_PERSISTS	{run}	case-stale	{namespace}	{nonce}	{implementation-revision}	hook-bc09-rejection-stale	rejection-stale	true	{before-inventory-sha256}	{after-inventory-sha256}
+BC09_FAILPOINT_PERSISTS	{run}	case-incomplete	{namespace}	{nonce}	{implementation-revision}	hook-bc09-rejection-incomplete	rejection-incomplete	true	{before-inventory-sha256}	{after-inventory-sha256}
+BC09_FAILPOINT_PERSISTS	{run}	case-rejected	{namespace}	{nonce}	{implementation-revision}	hook-bc09-rejection-rejected	rejection-rejected	true	{before-inventory-sha256}	{after-inventory-sha256}
+BC09_FAILPOINT_PERSISTS	{run}	case-duplicate	{namespace}	{nonce}	{implementation-revision}	hook-bc09-rejection-duplicate	rejection-duplicate	true	{before-inventory-sha256}	{after-inventory-sha256}

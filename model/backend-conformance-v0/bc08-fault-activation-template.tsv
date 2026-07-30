@@ -1,0 +1,5 @@
+{run}	{namespace}	BC08_MID_BOUNDARY_FAILURE	case-bc08-after-observation	attempt-bc08-after-observation	sut-apply-effect	hook-bc08-after-observation	after-observation	{nonce}	{implementation-revision}
+{run}	{namespace}	BC08_MID_BOUNDARY_FAILURE	case-bc08-after-transition	attempt-bc08-after-transition	sut-apply-effect	hook-bc08-after-transition	after-transition	{nonce}	{implementation-revision}
+{run}	{namespace}	BC08_MID_BOUNDARY_FAILURE	case-bc08-after-view-header	attempt-bc08-after-view-header	sut-apply-effect	hook-bc08-after-view-header	after-view-header	{nonce}	{implementation-revision}
+{run}	{namespace}	BC08_MID_BOUNDARY_FAILURE	case-bc08-after-view-row	attempt-bc08-after-view-row	sut-apply-effect	hook-bc08-after-view-row	after-view-row	{nonce}	{implementation-revision}
+{run}	{namespace}	BC08_MID_BOUNDARY_FAILURE	case-bc08-before-current-update	attempt-bc08-before-current-update	sut-apply-effect	hook-bc08-before-current-update	before-current-update	{nonce}	{implementation-revision}

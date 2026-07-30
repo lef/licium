@@ -1,0 +1,12 @@
+cap-bc01-delivery	required	delivery-occurrence-semantics
+cap-bc02-root	required	complete-root-atomicity
+cap-bc03-publication	required	publication-head-separation
+cap-bc04-read	required	explicit-read-mode
+cap-bc05-closure	required	pinned-input-closure
+cap-bc06-pure-evaluation	required	pure-evaluation-write-axes
+cap-bc07-write-axes	required	distinct-persistence-axes
+cap-bc08-effect	required	indivisible-repository-effect
+cap-bc09-failure	required	failure-artifact-absence
+cap-bc10-output	required	selected-output-closure
+cap-bc11-replay	required	replay-explanation-integrity
+cap-bc12-placement	required	placement-decision-provenance

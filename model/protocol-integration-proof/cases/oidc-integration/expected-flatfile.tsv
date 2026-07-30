@@ -1,0 +1,10 @@
+adapter-backend-contract	auth-backend-v1
+authorization-code-pkce	PASS
+backend-invalid-rejection	PASS
+backend-provider	flatfile-posix-provider-v1
+canonical-engine-user-record	ABSENT
+engine	oidc-provider	9.11.1
+id-token-verification	PASS
+no-pkce-rejection	PASS
+userinfo-selected-claims	PASS
+OIDC_INTEGRATION_VALID

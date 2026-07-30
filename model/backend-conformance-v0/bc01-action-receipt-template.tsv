@@ -1,0 +1,10 @@
+{run}	{namespace}	bc01-association-idempotent--case-bc01-retry	case-bc01-retry	sut-setup-bc01	accepted	-	delivery-a	occurrence-a	alice	public-a	inserted	{setup-nonce}
+{run}	{namespace}	bc01-association-idempotent--case-bc01-retry	case-bc01-retry	sut-retry-delivery	duplicate	-	delivery-a	occurrence-a	alice	public-a	unchanged	{action-nonce}
+{run}	{namespace}	bc01-distinct-occurrence--case-bc01-distinct	case-bc01-distinct	sut-setup-bc01	accepted	-	delivery-a	occurrence-a	alice	public-a	inserted	{setup-nonce}
+{run}	{namespace}	bc01-distinct-occurrence--case-bc01-distinct	case-bc01-distinct	sut-deliver-distinct	accepted	-	delivery-b	occurrence-b	alice	public-a	inserted	{action-nonce}
+{run}	{namespace}	bc01-occurrence-collapse--case-bc01-distinct	case-bc01-distinct	sut-setup-bc01	accepted	-	delivery-a	occurrence-a	alice	public-a	inserted	{setup-nonce}
+{run}	{namespace}	bc01-occurrence-collapse--case-bc01-distinct	case-bc01-distinct	sut-deliver-distinct	accepted	-	delivery-b	occurrence-b	alice	public-a	inserted	{action-nonce}
+{run}	{namespace}	bc01-payload-collision--case-bc01-payload-collision	case-bc01-payload-collision	sut-setup-bc01	accepted	-	delivery-a	occurrence-a	alice	public-a	inserted	{setup-nonce}
+{run}	{namespace}	bc01-payload-collision--case-bc01-payload-collision	case-bc01-payload-collision	sut-deliver-collision	collision	payload-mismatch	delivery-a	occurrence-a	alice	public-x	unchanged	{action-nonce}
+{run}	{namespace}	bc01-retry-duplication--case-bc01-retry	case-bc01-retry	sut-setup-bc01	accepted	-	delivery-a	occurrence-a	alice	public-a	inserted	{setup-nonce}
+{run}	{namespace}	bc01-retry-duplication--case-bc01-retry	case-bc01-retry	sut-retry-delivery	duplicate	-	delivery-a	occurrence-a	alice	public-a	unchanged	{action-nonce}

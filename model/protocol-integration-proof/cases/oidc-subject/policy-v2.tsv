@@ -1,0 +1,6 @@
+backend-provider	sqlite-provider-v1
+engine	oidc-provider	9.11.1
+no-token-issued	PASS
+subject-policy-migration-required	PASS
+subject-policy-scenario	policy-v2
+OIDC_SUBJECT_MIGRATION_VALID

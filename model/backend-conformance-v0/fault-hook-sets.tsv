@@ -1,0 +1,12 @@
+set-bc02-root-boundaries	hook-bc02-after-root-header	all
+set-bc02-root-boundaries	hook-bc02-after-root-member	all
+set-bc08-effect-boundaries	hook-bc08-after-observation	all
+set-bc08-effect-boundaries	hook-bc08-after-transition	all
+set-bc08-effect-boundaries	hook-bc08-after-view-header	all
+set-bc08-effect-boundaries	hook-bc08-after-view-row	all
+set-bc08-effect-boundaries	hook-bc08-before-current-update	all
+set-bc09-failure-boundaries	hook-bc09-accepted-write	all
+set-bc09-failure-boundaries	hook-bc09-rejection-duplicate	all
+set-bc09-failure-boundaries	hook-bc09-rejection-incomplete	all
+set-bc09-failure-boundaries	hook-bc09-rejection-rejected	all
+set-bc09-failure-boundaries	hook-bc09-rejection-stale	all

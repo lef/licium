@@ -1,0 +1,6 @@
+BC07_EFFECT_101	case-bc07-effect	bc07-effect-101--case-bc07-effect
+BC07_OBSERVATION_WITHOUT_TRANSITION	case-bc07-orphan	bc07-observation-without-transition--case-bc07-orphan
+BC07_ORDINARY_000	case-bc07-ordinary	bc07-ordinary-000--case-bc07-ordinary
+BC07_RECORD_IMPLIES_EFFECT	case-bc07-record-effect	bc07-record-implies-effect--case-bc07-record-effect
+BC07_RECORD_ONLY_010	case-bc07-record	bc07-record-only-010--case-bc07-record
+BC07_RESULT_REWRITE	case-bc07-rewrite	bc07-result-rewrite--case-bc07-rewrite

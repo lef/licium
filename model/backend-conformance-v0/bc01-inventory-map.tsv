@@ -1,0 +1,15 @@
+BC01_ASSOCIATION_IDEMPOTENT	case-bc01-retry	before	bc01-inventory-before.tsv	bc01-association-idempotent--case-bc01-retry
+BC01_ASSOCIATION_IDEMPOTENT	case-bc01-retry	after	bc01-inventory-after.tsv	bc01-association-idempotent--case-bc01-retry
+BC01_ASSOCIATION_IDEMPOTENT	case-bc01-retry	reopened	bc01-inventory-after.tsv	bc01-association-idempotent--case-bc01-retry
+BC01_DISTINCT_OCCURRENCE	case-bc01-distinct	before	bc01-inventory-before.tsv	bc01-distinct-occurrence--case-bc01-distinct
+BC01_DISTINCT_OCCURRENCE	case-bc01-distinct	after	bc01-inventory-after.tsv	bc01-distinct-occurrence--case-bc01-distinct
+BC01_DISTINCT_OCCURRENCE	case-bc01-distinct	reopened	bc01-inventory-after.tsv	bc01-distinct-occurrence--case-bc01-distinct
+BC01_OCCURRENCE_COLLAPSE	case-bc01-distinct	before	bc01-inventory-before.tsv	bc01-occurrence-collapse--case-bc01-distinct
+BC01_OCCURRENCE_COLLAPSE	case-bc01-distinct	after	bc01-inventory-after.tsv	bc01-occurrence-collapse--case-bc01-distinct
+BC01_OCCURRENCE_COLLAPSE	case-bc01-distinct	reopened	bc01-inventory-after.tsv	bc01-occurrence-collapse--case-bc01-distinct
+BC01_PAYLOAD_COLLISION	case-bc01-payload-collision	before	bc01-inventory-before.tsv	bc01-payload-collision--case-bc01-payload-collision
+BC01_PAYLOAD_COLLISION	case-bc01-payload-collision	after	bc01-inventory-after.tsv	bc01-payload-collision--case-bc01-payload-collision
+BC01_PAYLOAD_COLLISION	case-bc01-payload-collision	reopened	bc01-inventory-after.tsv	bc01-payload-collision--case-bc01-payload-collision
+BC01_RETRY_DUPLICATION	case-bc01-retry	before	bc01-inventory-before.tsv	bc01-retry-duplication--case-bc01-retry
+BC01_RETRY_DUPLICATION	case-bc01-retry	after	bc01-inventory-after.tsv	bc01-retry-duplication--case-bc01-retry
+BC01_RETRY_DUPLICATION	case-bc01-retry	reopened	bc01-inventory-after.tsv	bc01-retry-duplication--case-bc01-retry

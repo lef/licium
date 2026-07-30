@@ -1,0 +1,10 @@
+action-receipts.tsv	12	1	bag	direct-sut-stdout
+command-receipts.tsv	12	6	bag	runner-custody
+coverage.tsv	6	case-contract	set	runner-contract
+exclusions.tsv	6	0	set	present-empty
+fault-markers.tsv	6	0	bag	present-empty
+normalized-observations.tsv	6	case-contract	set	runner-normalizer
+oracle-result.tsv	6	1	set	runner-oracle
+pragma.tsv	6	5	bag	adapter-stderr
+raw-observations.tsv	6	case-contract	bag	adapter-and-sut
+raw-seal.tsv	9	1	set	runner-custody

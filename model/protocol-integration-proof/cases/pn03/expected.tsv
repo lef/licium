@@ -1,0 +1,8 @@
+exact-root	envelope	root_ref	root-auth-v1
+exact-root	envelope	source_mode	exact_root
+exact-root	envelope	write_receipt_ref	write-receipt-v1
+exact-root	value	display-name	Alice Example
+published-head	envelope	publication_ref	publication-auth-v2
+published-head	envelope	root_ref	root-auth-v2
+published-head	envelope	source_mode	published_head
+published-head	value	display-name	Alice Updated

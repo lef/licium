@@ -1,0 +1,11 @@
+harness-bc11-missing-sut-action	-	harness-mutant	missing-action-receipt	BC11_SUT_ACTION_MISSING
+harness-bc11-normalized-synthesis-without-raw-coverage	-	observer-mutant	normalized-without-raw-coverage	BC11_COVERAGE_INVALID
+harness-bc11-raw-post-seal-tamper	-	evidence-mutant	raw-post-seal-tamper	BC11_RAW_SEAL_INVALID
+neg-bc11-explanation-closure	neg-bc11-explanation-closure	sut-mutant	detect-explanation-member-loss	BC11_EXPLANATION_CLOSURE_LOSS_DETECTED
+neg-bc11-finding-cross-link	neg-bc11-finding-cross-link	sut-mutant	detect-missing-cross-link-finding	BC11_FINDING_CROSS_LINK_MISSING
+neg-bc11-finding-dangling	neg-bc11-finding-dangling	sut-mutant	detect-missing-dangling-finding	BC11_FINDING_DANGLING_MISSING
+neg-bc11-latest-substitution	neg-bc11-latest-substitution	counterfactual	detect-latest-replay-substitution	BC11_LATEST_SUBSTITUTION_MISMATCH_DETECTED
+neg-bc11-missing-as-empty	neg-bc11-missing-as-empty	counterfactual	detect-replay-missing-as-empty	BC11_MISSING_AS_EMPTY_NOT_DETECTED
+neg-bc11-replay-result	neg-bc11-replay-result	sut-mutant	detect-replay-result-drift	BC11_REPLAY_RESULT_MISMATCH_DETECTED
+neg-bc11-silent-cross-link	neg-bc11-silent-cross-link	sut-mutant	detect-silent-cross-link-repair	BC11_SILENT_CROSS_LINK_DETECTED
+neg-bc11-silent-dangling	neg-bc11-silent-dangling	sut-mutant	detect-silent-dangling-repair	BC11_SILENT_DANGLING_DETECTED

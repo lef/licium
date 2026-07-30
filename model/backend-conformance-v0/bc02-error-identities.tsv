@@ -1,0 +1,3 @@
+error-bc02-after-root-header	LICIUM_BC02_FAULT_AFTER_ROOT_HEADER	injected-rollback	70
+error-bc02-after-root-member	LICIUM_BC02_FAULT_AFTER_ROOT_MEMBER	injected-rollback	70
+error-bc02-incomplete	LICIUM_BC02_ROOT_INCOMPLETE	handled-root-unavailable	0

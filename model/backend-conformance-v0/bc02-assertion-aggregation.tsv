@@ -1,0 +1,10 @@
+BC02_COMPLETE_AVAILABLE	bc02-complete-available--case-bc02-complete	required	all-required-scenarios-pass-and-gates	INVALID>FAIL>UNAVAILABLE>UNTESTED>PASS	oracle-result+mandatory-gates
+BC02_HEALTHY_RETRY	bc02-healthy-retry--case-bc02-incomplete-corrected	required	all-required-scenarios-pass-and-gates	INVALID>FAIL>UNAVAILABLE>UNTESTED>PASS	oracle-result+mandatory-gates
+BC02_INCOMPLETE_AS_COMPLETE	bc02-incomplete-as-complete--case-bc02-incomplete-missing	required	all-required-scenarios-pass-and-gates	INVALID>FAIL>UNAVAILABLE>UNTESTED>PASS	oracle-result+mandatory-gates
+BC02_INCOMPLETE_AS_COMPLETE	bc02-incomplete-as-complete--case-bc02-incomplete-substitution	required	all-required-scenarios-pass-and-gates	INVALID>FAIL>UNAVAILABLE>UNTESTED>PASS	oracle-result+mandatory-gates
+BC02_PARTIAL_RESIDUE	bc02-partial-residue--case-bc02-after-root-header	required	all-required-scenarios-pass-and-gates	INVALID>FAIL>UNAVAILABLE>UNTESTED>PASS	oracle-result+mandatory-gates
+BC02_PARTIAL_RESIDUE	bc02-partial-residue--case-bc02-after-root-member	required	all-required-scenarios-pass-and-gates	INVALID>FAIL>UNAVAILABLE>UNTESTED>PASS	oracle-result+mandatory-gates
+BC02_POISONED_RETRY	bc02-poisoned-retry--case-bc02-after-root-header	required	all-required-scenarios-pass-and-gates	INVALID>FAIL>UNAVAILABLE>UNTESTED>PASS	oracle-result+mandatory-gates
+BC02_POISONED_RETRY	bc02-poisoned-retry--case-bc02-after-root-member	required	all-required-scenarios-pass-and-gates	INVALID>FAIL>UNAVAILABLE>UNTESTED>PASS	oracle-result+mandatory-gates
+BC02_ROLLBACK_COMPLETE	bc02-rollback-complete--case-bc02-after-root-header	required	all-required-scenarios-pass-and-gates	INVALID>FAIL>UNAVAILABLE>UNTESTED>PASS	oracle-result+mandatory-gates
+BC02_ROLLBACK_COMPLETE	bc02-rollback-complete--case-bc02-after-root-member	required	all-required-scenarios-pass-and-gates	INVALID>FAIL>UNAVAILABLE>UNTESTED>PASS	oracle-result+mandatory-gates

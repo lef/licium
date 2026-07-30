@@ -1,0 +1,8 @@
+{scenario}	raw-001	execution	action	operation	{operation}
+{scenario}	raw-002	execution	action	mode	ordinary
+{scenario}	raw-003	persistent-write	action	axis-vector	{axis-vector}
+{scenario}	raw-004	persistent-write	authoritative-state	change	{state-axis}
+{scenario}	raw-005	persistent-write	result-store	change	{result-axis}
+{scenario}	raw-006	persistent-write	decision-observation	change	{observation-axis}
+{scenario}	raw-007	result-integrity	{result}	before-after	{result-integrity}
+{scenario}	raw-008	linkage	{observation}	transition-result-effect	{linkage}

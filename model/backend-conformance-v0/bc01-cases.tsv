@@ -1,0 +1,5 @@
+BC01_ASSOCIATION_IDEMPOTENT	positive	case-bc01-retry	sut-retry-delivery	ordinary	neg-bc01-association-idempotent	PASS
+BC01_DISTINCT_OCCURRENCE	positive	case-bc01-distinct	sut-deliver-distinct	ordinary	neg-bc01-distinct-occurrence	PASS
+BC01_OCCURRENCE_COLLAPSE	control	case-bc01-distinct	sut-deliver-distinct	ordinary	neg-bc01-occurrence-collapse	PASS
+BC01_PAYLOAD_COLLISION	control	case-bc01-payload-collision	sut-deliver-collision	ordinary	neg-bc01-payload-collision	PASS
+BC01_RETRY_DUPLICATION	control	case-bc01-retry	sut-retry-delivery	ordinary	neg-bc01-retry-duplication	PASS

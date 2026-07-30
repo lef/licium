@@ -1,0 +1,6 @@
+neg-bc02-complete-available	sut-mutant	mutant-complete-as-unavailable	BC02_COMPLETE_AVAILABLE	BC02_COMPLETE_ROOT_REQUIRED	bc02-complete-available--case-bc02-complete	execute-mutant	oracle-result.tsv
+neg-bc02-healthy-retry	sut-mutant	mutant-retry-rejected	BC02_HEALTHY_RETRY	BC02_HEALTHY_RETRY_REQUIRED	bc02-healthy-retry--case-bc02-incomplete-corrected	execute-mutant	oracle-result.tsv
+neg-bc02-incomplete-as-complete	counterfactual	mutant-incomplete-as-complete	BC02_INCOMPLETE_AS_COMPLETE	BC02_INCOMPLETE_ROOT_ACCEPTED	bc02-incomplete-as-complete--case-bc02-incomplete-missing	execute-mutant	oracle-result.tsv
+neg-bc02-partial-residue	fault	mutant-partial-residue	BC02_PARTIAL_RESIDUE	BC02_PARTIAL_ROOT_RESIDUE	bc02-partial-residue--case-bc02-after-root-header	execute-mutant	inventory-rollback-after.tsv
+neg-bc02-poisoned-retry	fault	mutant-poisoned-retry	BC02_POISONED_RETRY	BC02_POISONED_RETRY_DETECTED	bc02-poisoned-retry--case-bc02-after-root-header	execute-mutant	inventory-retry-after.tsv
+neg-bc02-rollback-complete	fault	mutant-incomplete-rollback	BC02_ROLLBACK_COMPLETE	BC02_ROLLBACK_INCOMPLETE	bc02-rollback-complete--case-bc02-after-root-header	execute-mutant	inventory-rollback-after.tsv

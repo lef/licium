@@ -1,0 +1,10 @@
+BC02_PARTIAL_RESIDUE	010	setup-operation	sut-setup-bc02	-	same	superseded-by-bc02-steps.tsv
+BC02_PARTIAL_RESIDUE	020	fault-set	set-bc02-root-boundaries	-	same	superseded-by-bc02-steps.tsv
+BC02_PARTIAL_RESIDUE	030	observe-relation	inventory-repository	-	same	superseded-by-bc02-steps.tsv
+BC02_POISONED_RETRY	010	setup-operation	sut-setup-bc02	-	same	superseded-by-bc02-steps.tsv
+BC02_POISONED_RETRY	020	fault-set	set-bc02-root-boundaries	-	same	superseded-by-bc02-steps.tsv
+BC02_POISONED_RETRY	030	action-operation	sut-retry-root	-	same	superseded-by-bc02-steps.tsv
+BC02_POISONED_RETRY	040	observe-relation	inventory-repository	-	same	superseded-by-bc02-steps.tsv
+BC02_ROLLBACK_COMPLETE	010	setup-operation	sut-setup-bc02	-	same	superseded-by-bc02-steps.tsv
+BC02_ROLLBACK_COMPLETE	020	fault-set	set-bc02-root-boundaries	-	same	superseded-by-bc02-steps.tsv
+BC02_ROLLBACK_COMPLETE	030	observe-relation	inventory-repository	-	same	superseded-by-bc02-steps.tsv

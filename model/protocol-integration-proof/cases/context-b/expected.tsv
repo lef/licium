@@ -1,0 +1,11 @@
+envelope	context_ref	context-claims-v2
+envelope	credential_authority_ref	cred-auth-v1
+envelope	credential_store_revision	credential-store-v1
+envelope	definition_ref	definition-auth-v1
+envelope	disposition	accepted
+envelope	outcome_persistence	ephemeral
+envelope	profile_ref	profile-login-v1
+envelope	root_ref	root-auth-v1
+envelope	stable_protocol_account_key	account-alice
+relation	member-of	team-blue
+value	display-name	Alice Example

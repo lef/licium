@@ -1,0 +1,3 @@
+malformed-request	rejected	malformed_request
+unknown-login	rejected	unknown_login
+wrong-proof	rejected	invalid_proof

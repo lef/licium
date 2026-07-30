@@ -1,0 +1,6 @@
+V-N01	digest	change-bound-tsv-byte	VECTOR_DIGEST_MISMATCH
+V-N02	schema	remove-required-field	VECTOR_SCHEMA_INVALID
+V-N03	order	swap-sorted-rows	VECTOR_ORDER_INVALID
+V-N04	inventory	remove-bound-tsv	VECTOR_INVENTORY_INVALID
+V-N05	inventory	add-unbound-tsv	VECTOR_INVENTORY_INVALID
+V-N06	binding	change-binding-digest	VECTOR_BINDING_INVALID

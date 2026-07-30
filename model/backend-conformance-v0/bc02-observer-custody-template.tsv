@@ -1,0 +1,2 @@
+{run}	{namespace}	{assertion}	case-bc02-after-root-header	observer-01	{observer-process-occurrence}	{connection-nonce}	before-fault	001	002	{retry-sequence-or-dash}	{transcript-sha256}	held-through-required-stages
+{run}	{namespace}	{assertion}	case-bc02-after-root-member	observer-01	{observer-process-occurrence}	{connection-nonce}	before-fault	001	002	{retry-sequence-or-dash}	{transcript-sha256}	held-through-required-stages

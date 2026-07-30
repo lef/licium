@@ -1,0 +1,5 @@
+BC04_AMBIENT_FALLBACK	case-bc04-ambient	bc04-ambient-fallback--case-bc04-ambient
+BC04_EXACT_PUBLISHED_COLLAPSE	case-bc04-collapse	bc04-exact-published-collapse--case-bc04-collapse
+BC04_EXACT_READ	case-bc04-exact	bc04-exact-read--case-bc04-exact
+BC04_PUBLISHED_READ	case-bc04-published	bc04-published-read--case-bc04-published
+BC04_UNACCEPTED_AVAILABLE	case-bc04-unaccepted	bc04-unaccepted-available--case-bc04-unaccepted

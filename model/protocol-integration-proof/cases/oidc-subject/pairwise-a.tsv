@@ -1,0 +1,12 @@
+adapter-backend-contract	auth-backend-v1
+authorization-code-pkce	PASS
+backend-invalid-rejection	PASS
+backend-provider	sqlite-provider-v1
+canonical-engine-user-record	ABSENT
+engine	oidc-provider	9.11.1
+id-token-verification	PASS
+no-pkce-rejection	PASS
+subject	sub-pairwise-alice-a-v1
+subject-policy-scenario	pairwise-a
+userinfo-selected-claims	PASS
+OIDC_INTEGRATION_VALID

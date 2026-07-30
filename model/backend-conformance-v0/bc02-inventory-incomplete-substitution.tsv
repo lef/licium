@@ -1,0 +1,17 @@
+{scenario}	root	@relation	presence	present	0001
+{scenario}	root-ancestry	@relation	presence	present	0001
+{scenario}	root-member	@relation	presence	present	0001
+{scenario}	root-request	@relation	presence	present	0001
+{scenario}	root-request	request-02	ancestry-boundary-ref	genesis-02	0001
+{scenario}	root-request	request-02	target-root-ref	root-02	0001
+{scenario}	root-required-member	@relation	presence	present	0001
+{scenario}	root-required-member	request-02/0001	object-ref	object-a	0001
+{scenario}	root-required-member	request-02/0002	object-ref	object-b	0001
+{scenario}	root-required-member	request-02/0003	object-ref	object-c	0001
+{scenario}	source-object	@relation	presence	present	0001
+{scenario}	source-object	object-a	kind	pair	0001
+{scenario}	source-object	object-a	value	value-a	0001
+{scenario}	source-object	object-b	kind	pair	0001
+{scenario}	source-object	object-b	value	value-b	0001
+{scenario}	source-object	object-x	kind	pair	0001
+{scenario}	source-object	object-x	value	value-x	0001

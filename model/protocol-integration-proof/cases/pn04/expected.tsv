@@ -1,0 +1,6 @@
+pinned-closure	closure	bindings_ref	bindings-v1
+pinned-closure	closure	context_ref	context-claims-v1
+pinned-closure	closure	definition_ref	definition-auth-v1
+pinned-closure	closure	profile_ref	profile-login-v1
+pinned-closure	closure	root_ref	root-auth-v1
+pinned-closure	closure	semantics_ref	semantics-v1

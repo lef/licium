@@ -1,0 +1,10 @@
+{scenario}	authoritative-state	@relation	presence	present	0001
+{scenario}	authoritative-state	scope-06	state-ref	state-0	0001
+{scenario}	decision-observation	@relation	presence	present	0001
+{scenario}	evaluation-request	@relation	presence	present	0001
+{scenario}	evaluation-request	request-06	request-kind	ordinary	0001
+{scenario}	evaluation-request	request-06	source-object-ref	pair-06	0001
+{scenario}	result-store	@relation	presence	present	0001
+{scenario}	source-pair	@relation	presence	present	0001
+{scenario}	source-pair	pair-06	logical-id	alice	0001
+{scenario}	source-pair	pair-06	logical-value	public-a	0001

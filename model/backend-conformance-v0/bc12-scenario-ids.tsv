@@ -1,0 +1,11 @@
+BC12_ARCHIVE_BYPASS	case-bc12-archive-bypass	bc12-archive-bypass--case-bc12-archive-bypass
+BC12_CANONICAL_UNCHANGED	case-bc12-canonical-unchanged	bc12-canonical-unchanged--case-bc12-canonical-unchanged
+BC12_DECISION_PROVENANCE	case-bc12-decision-provenance	bc12-decision-provenance--case-bc12-decision-provenance
+BC12_DERIVED_PROTECTION	case-bc12-derived-protection	bc12-derived-protection--case-bc12-derived-protection
+BC12_ELIGIBILITY_DELETE	case-bc12-eligibility-delete	bc12-eligibility-delete--case-bc12-eligibility-delete
+BC12_FORGET_BYPASS	case-bc12-forget-bypass	bc12-forget-bypass--case-bc12-forget-bypass
+BC12_FORGET_CONSUMED	case-bc12-forget-consumed	bc12-forget-consumed--case-bc12-forget-consumed
+BC12_NOOP_EVALUATOR	case-bc12-noop-evaluator	bc12-noop-evaluator--case-bc12-noop-evaluator
+BC12_PLACEMENT_DECISION	case-bc12-placement-decision	bc12-placement-decision--case-bc12-placement-decision
+BC12_PROTECTION_BYPASS	case-bc12-protection-bypass	bc12-protection-bypass--case-bc12-protection-bypass
+BC12_WINDOW_BYPASS	case-bc12-window-bypass	bc12-window-bypass--case-bc12-window-bypass

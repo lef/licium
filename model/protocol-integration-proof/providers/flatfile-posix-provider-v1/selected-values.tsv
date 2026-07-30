@@ -1,0 +1,3 @@
+root-auth-v1	account-alice	display-name	Alice Example	1
+root-auth-v1	account-alice	private-secret	secret-never-project-v1	0
+root-auth-v1	account-bob	display-name	Bob Example	1

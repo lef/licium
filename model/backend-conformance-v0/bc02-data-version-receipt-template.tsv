@@ -1,0 +1,6 @@
+{run}	{namespace}	{assertion}	case-bc02-after-root-header	observer-01	fault-before	data-version	{value-before}	001	held
+{run}	{namespace}	{assertion}	case-bc02-after-root-header	observer-01	fault-after	data-version	{value-after}	002	held
+{run}	{namespace}	BC02_POISONED_RETRY	case-bc02-after-root-header	observer-01	retry-commit	data-version	{value-retry}	003	held
+{run}	{namespace}	{assertion}	case-bc02-after-root-member	observer-01	fault-before	data-version	{value-before}	001	held
+{run}	{namespace}	{assertion}	case-bc02-after-root-member	observer-01	fault-after	data-version	{value-after}	002	held
+{run}	{namespace}	BC02_POISONED_RETRY	case-bc02-after-root-member	observer-01	retry-commit	data-version	{value-retry}	003	held

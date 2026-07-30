@@ -1,0 +1,6 @@
+BC07_EFFECT_101	positive	case-bc07-effect	sut-apply-effect	ordinary	neg-bc07-effect-101	PASS
+BC07_OBSERVATION_WITHOUT_TRANSITION	control	case-bc07-orphan	sut-apply-effect	ordinary	neg-bc07-observation-without-transition	PASS
+BC07_ORDINARY_000	positive	case-bc07-ordinary	sut-evaluate-pure	ordinary	neg-bc07-ordinary-000	PASS
+BC07_RECORD_IMPLIES_EFFECT	control	case-bc07-record-effect	sut-record-result	ordinary	neg-bc07-record-implies-effect	PASS
+BC07_RECORD_ONLY_010	positive	case-bc07-record	sut-record-result	ordinary	neg-bc07-record-only-010	PASS
+BC07_RESULT_REWRITE	control	case-bc07-rewrite	sut-apply-effect	ordinary	neg-bc07-result-rewrite	PASS

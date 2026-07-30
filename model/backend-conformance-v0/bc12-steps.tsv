@@ -1,0 +1,8 @@
+010	create	profile-create-namespace	normal	command-receipt
+020	setup	sut-setup-bc12	ordinary	command-receipt
+030	action	case-operation	case-mode	action-receipt
+040	reopen	profile-reopen-namespace	normal	command-receipt
+050	observe	profile-observe-bc12	ordinary	raw-observation
+060	destroy	profile-destroy-namespace	normal	command-receipt
+070	normalize	runner-normalize-bc12	ordinary	normalized-observation
+080	oracle	runner-oracle-bc12	ordinary	oracle-result
