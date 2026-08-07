@@ -1,6 +1,6 @@
 ---
 Type: README
-Updated: 2026-07-29T17:32:00+09:00
+Updated: 2026-08-07T11:26:24+09:00
 Status: discussion-draft
 Tags: licium, digital-identity, authentication, repository, evaluation, sqlite
 Description: A minimal substrate and executable reference model for composing digital identities from values and relations.
@@ -37,6 +37,11 @@ Source data at a pinned knowledge cut
 Directory, LDAP, GraphQL, SCIM, OIDC, SAML, authorization systems, and
 credentials may consume or project this data. They are not mandatory
 primitives in the minimal substrate.
+
+New to Licium? Start with [the concept guide](docs/CONCEPT-GUIDE.md) or its
+[Japanese version](docs/CONCEPT-GUIDE.ja.md). It explains the model through one
+Alice example before the contract and evidence documents introduce their
+precise boundaries.
 
 ### Current status
 
@@ -197,6 +202,8 @@ Licium Core or a wire format.
 
 ### Read next
 
+- [Concept guide](docs/CONCEPT-GUIDE.md) /
+  [日本語](docs/CONCEPT-GUIDE.ja.md)
 - [Current design](docs/DESIGN.md) /
   [日本語](docs/DESIGN.ja.md)
 - [Model boundary](docs/MODEL.md) /
@@ -263,6 +270,11 @@ ID -> { Value, Value, Value, ... }
 Directory、LDAP、GraphQL、SCIM、OIDC、SAML、authorization system、credentialは、
 このdataを利用またはprojectionできます。これらはminimal substrateの必須
 primitiveではありません。
+
+Liciumを初めて読む場合は、まず
+[コンセプトガイド](docs/CONCEPT-GUIDE.ja.md)または
+[English version](docs/CONCEPT-GUIDE.md)を参照してください。一つのAliceの例から
+modelを説明し、その後にcontractとevidence文書が正確な境界を示します。
 
 ### 現在の状態
 
@@ -417,6 +429,8 @@ SQLite tableは使い捨てのrealizationであり、Licium Coreでもwire forma
 
 ### 次に読む文書
 
+- [コンセプトガイド](docs/CONCEPT-GUIDE.ja.md) /
+  [English](docs/CONCEPT-GUIDE.md)
 - [現在の設計](docs/DESIGN.ja.md) /
   [English](docs/DESIGN.md)
 - [Model boundary](docs/MODEL.ja.md) /

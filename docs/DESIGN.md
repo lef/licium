@@ -1,6 +1,6 @@
 ---
 Type: DESIGN
-Updated: 2026-07-29T14:49:47+09:00
+Updated: 2026-08-07T11:26:24+09:00
 Status: discussion-draft
 Tags: licium, design, identity, repository, evaluation
 Description: Public start node for Licium's current design boundary, executable evidence, and open questions.
@@ -9,6 +9,13 @@ Description: Public start node for Licium's current design boundary, executable 
 # Licium Design
 
 [日本語版](DESIGN.ja.md)
+
+## Human-Oriented Entry Point
+
+New readers should begin with [the concept guide](CONCEPT-GUIDE.md) or its
+[Japanese version](CONCEPT-GUIDE.ja.md). It explains the mental model through
+one Alice example. This document remains the precise public index of current
+contracts, evidence, and open boundaries.
 
 ## Position
 

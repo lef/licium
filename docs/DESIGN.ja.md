@@ -1,6 +1,6 @@
 ---
 Type: DESIGN
-Updated: 2026-07-29T14:49:47+09:00
+Updated: 2026-08-07T11:26:24+09:00
 Status: discussion-draft
 Tags: licium, design, identity, repository, evaluation, japanese
 Description: Liciumの現在の設計境界、実行可能な証拠、未決事項を示す公開用の起点。
@@ -9,6 +9,13 @@ Description: Liciumの現在の設計境界、実行可能な証拠、未決事�
 # Licium Design
 
 [English version](DESIGN.md)
+
+## 人間向けの入口
+
+初めて読む場合は[コンセプトガイド](CONCEPT-GUIDE.ja.md)または
+[English version](CONCEPT-GUIDE.md)から始めてください。一つのAliceの例から
+mental modelを説明します。この文書は、現在のcontract、evidence、未決の境界を
+正確に辿るための公開indexです。
 
 ## 現在地
 
