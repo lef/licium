@@ -1,6 +1,6 @@
 ---
 Type: README
-Updated: 2026-08-07T11:26:24+09:00
+Updated: 2026-08-07T11:47:00+09:00
 Status: discussion-draft
 Tags: licium, digital-identity, authentication, repository, evaluation, sqlite
 Description: A minimal substrate and executable reference model for composing digital identities from values and relations.
@@ -9,6 +9,10 @@ Description: A minimal substrate and executable reference model for composing di
 # Licium
 
 [English](#english) | [日本語](#日本語)
+
+Start here／はじめに:
+[Concept Guide](docs/CONCEPT-GUIDE.md) |
+[コンセプトガイド](docs/CONCEPT-GUIDE.ja.md)
 
 ## English
 
